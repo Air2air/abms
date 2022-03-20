@@ -41,17 +41,17 @@ $globe-color-right: lighten($base-color, 30%);
   }
   .message {
     @include breakpoint-xs {
-      font-family:$font-title;
+      font-family: $font-title;
       font-size: 1.3em;
       line-height: $messaging-line-height;
     }
     @include breakpoint-sm {
-      font-family:$font-title;
+      font-family: $font-title;
       font-size: 1.4em;
       line-height: $messaging-line-height;
     }
     @include breakpoint-md {
-      font-family:$font-title;
+      font-family: $font-title;
       font-size: 1.5em;
       line-height: $messaging-line-height;
     }

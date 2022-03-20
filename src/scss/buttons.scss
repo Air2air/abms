@@ -6,14 +6,14 @@
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   @include transition;
   font-size: 1em;
-  text-align: center!important;
+  text-align: center !important;
   border: none;
   min-width: 150px;
   max-width: 30%;
   margin-top: 10px;
   .fa {
     @include transition;
-    font-size: .8em;
+    font-size: 0.8em;
     opacity: 0.6;
     margin-right: 6px;
   }

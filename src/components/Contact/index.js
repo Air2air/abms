@@ -8,8 +8,8 @@ const Contact = () => (
     <div className="d-flex flex-column fade-in one" />
     <p>
       Please contact us at&nbsp;
-      <a href="mailto:mail@sustainablefuelcyclesciencepanel.org">
-        mail@sustainablefuelcyclesciencepanel.org
+      <a href="mailto:mail@allbritishmotorshowsciencepanel.org">
+        mail@allbritishmotorshowsciencepanel.org
       </a>
     </p>
   </div>

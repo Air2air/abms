@@ -1,0 +1,1048 @@
+[
+  {
+    "class": "Aston Martin",
+    "entrant": [
+      {
+        "owner": "Chauca, Cliff",
+        "make": "Aston Martin",
+        "model": "DBS",
+        "year": "2011",
+        "class": "Aston Martin"
+      },
+      {
+        "owner": "Chavez, Brian",
+        "make": "Aston Martin",
+        "model": "Vantage V-8 Roadster",
+        "year": "2008",
+        "class": "Aston Martin"
+      },
+      {
+        "owner": "Julian, R",
+        "make": "Aston Martin",
+        "model": "Vantage GTS",
+        "year": "2016",
+        "class": "Aston Martin"
+      },
+      {
+        "owner": "Luesse, Nelson",
+        "make": "Aston Martin",
+        "model": "Vantage V-8 Roadster",
+        "year": "2008",
+        "class": "Aston Martin"
+      },
+      {
+        "owner": "Taft, Bob",
+        "make": "Aston Martin",
+        "model": "DB2/4 MkI II Fixed Head Coupe",
+        "year": "1957",
+        "class": "Aston Martin"
+      },
+      {
+        "owner": "Taft, Russ",
+        "make": "Aston Martin",
+        "model": "DB2/4 Mark III Drophead Coupe",
+        "year": "1959",
+        "class": "Aston Martin"
+      }
+    ]
+  },
+  {
+    "class": "British Roadster",
+    "entrant": [
+      {
+        "owner": "Corvese, Russell",
+        "make": "Austin Healey",
+        "model": "3000 BT7",
+        "year": "1960",
+        "class": "British Roadster"
+      },
+      {
+        "owner": "Gale, Donald",
+        "make": "Austin Healey",
+        "model": "100",
+        "year": "1954",
+        "class": "British Roadster"
+      },
+      {
+        "owner": "Hanson, Myron",
+        "make": "Sunbeam",
+        "model": "Tiger",
+        "year": "1965",
+        "class": "British Roadster"
+      },
+      {
+        "owner": "Holm, Brian",
+        "make": "Sunbeam",
+        "model": "Alpine",
+        "year": "1967",
+        "class": "British Roadster"
+      },
+      {
+        "owner": "Maddex, Dave",
+        "make": "Jensen Healey",
+        "model": "Roadster",
+        "year": "1974",
+        "class": "British Roadster"
+      },
+      {
+        "owner": "Nonnenberg, Alan",
+        "make": "Austin-Healey",
+        "model": "100-6 BN6",
+        "year": "1959",
+        "class": "British Roadster"
+      },
+      {
+        "owner": "Pitt, Dan",
+        "make": "Ginetta",
+        "model": "G4",
+        "year": "1972",
+        "class": "British Roadster"
+      }
+    ]
+  },
+  {
+    "class": "British Saloon",
+    "entrant": [
+      {
+        "owner": "Elizabeth Wheeler, JoAnne",
+        "make": "Rolls-Royce",
+        "model": "Seraph",
+        "year": "1999",
+        "class": "British Saloon"
+      },
+      {
+        "owner": "Gallagher, John",
+        "make": "Riley",
+        "model": "One-point-Five",
+        "year": "1959",
+        "class": "British Saloon"
+      },
+      {
+        "owner": "Leadford, Hayden",
+        "make": "Daimler",
+        "model": "V8 2.5 Litre",
+        "year": "1965",
+        "class": "British Saloon"
+      },
+      {
+        "owner": "Legg, Jim",
+        "make": "Rover",
+        "model": "P6",
+        "year": "1970",
+        "class": "British Saloon"
+      },
+      {
+        "owner": "Royce, Murray",
+        "make": "Rolls-Royce",
+        "model": "Silver Cloud",
+        "year": "1961",
+        "class": "British Saloon"
+      }
+    ]
+  },
+  {
+    "class": "English Ford",
+    "entrant": [
+      {
+        "owner": "Pullan, Donna",
+        "make": "Ford",
+        "model": "Mk1 Cortina Estate",
+        "year": "1964",
+        "class": "English Ford"
+      },
+      {
+        "owner": "Pullan, Brent",
+        "make": "Ford",
+        "model": "Mk2 Cortina GT",
+        "year": "1970",
+        "class": "English Ford"
+      },
+      {
+        "owner": "Snyders, Pete",
+        "make": "Ford",
+        "model": "Zephyr",
+        "year": "1960",
+        "class": "English Ford"
+      }
+    ]
+  },
+  {
+    "class": "Jaguar",
+    "entrant": [
+      {
+        "owner": "Gross, James",
+        "make": "Jaguar",
+        "model": "XF Prestige",
+        "year": "2016",
+        "class": "Jaguar"
+      },
+      {
+        "owner": "Moraes, Larry",
+        "make": "Jaguar",
+        "model": "XJS V12",
+        "year": "1994",
+        "class": "Jaguar"
+      },
+      {
+        "owner": "O'Neill, Tom",
+        "make": "Jaguar",
+        "model": "F-Type S",
+        "year": "2016",
+        "class": "Jaguar"
+      },
+      {
+        "owner": "Rosenberg, Randall",
+        "make": "Jaguar",
+        "model": "XK120",
+        "year": "1953",
+        "class": "Jaguar"
+      },
+      {
+        "owner": "Smith, Jeffrey",
+        "make": "Jaguar",
+        "model": "XJS",
+        "year": "1990",
+        "class": "Jaguar"
+      },
+      {
+        "owner": "Verhoek, John",
+        "make": "Jaguar",
+        "model": "XK120 Drophead",
+        "year": "1954",
+        "class": "Jaguar"
+      }
+    ]
+  },
+  {
+    "class": "Jaguar - E Type",
+    "entrant": [
+      {
+        "owner": "Hallett, Stewart",
+        "make": "Jaguar",
+        "model": "XKE-OTS",
+        "year": "1967",
+        "class": "Jaguar - E Type"
+      },
+      {
+        "owner": "Leadford, Hayden",
+        "make": "Jaguar",
+        "model": "E Type",
+        "year": "1968",
+        "class": "Jaguar - E Type"
+      },
+      {
+        "owner": "Marsh, Bruce",
+        "make": "Jaguar",
+        "model": "E-type Roadster",
+        "year": "1964",
+        "class": "Jaguar - E Type"
+      },
+      {
+        "owner": "Sherlock, William",
+        "make": "Jaguar",
+        "model": "E-Type Coupe",
+        "year": "1966",
+        "class": "Jaguar - E Type"
+      },
+      {
+        "owner": "Thomas, Robert",
+        "make": "Jaguar",
+        "model": "E-type / XKE",
+        "year": "1968",
+        "class": "Jaguar - E Type"
+      },
+      {
+        "owner": "Verkerk, Daryl",
+        "make": "Jaguar",
+        "model": "E-type",
+        "year": "1966",
+        "class": "Jaguar - E Type"
+      }
+    ]
+  },
+  {
+    "class": "Land Rover",
+    "entrant": [
+      {
+        "owner": "Feldhammer, Bruce",
+        "make": "Land Rover",
+        "model": "Series 2A",
+        "year": "1969",
+        "class": "Land Rover"
+      },
+      {
+        "owner": "Green, Michael",
+        "make": "Land Rover",
+        "model": "D110",
+        "year": "1993",
+        "class": "Land Rover"
+      },
+      {
+        "owner": "Hernandez, Roy",
+        "make": "Land Rover",
+        "model": "Defender 90 Station Wagon",
+        "year": "1995",
+        "class": "Land Rover"
+      }
+    ]
+  },
+  {
+    "class": "Lotus",
+    "entrant": [
+      {
+        "owner": "Birnbaum, Naury",
+        "make": "Lotus",
+        "model": "Elan S4 SE DHC",
+        "year": "1969",
+        "class": "Lotus"
+      },
+      {
+        "owner": "Chavez, Thomas",
+        "make": "Lotus",
+        "model": "Westfield Super 7",
+        "year": "1966",
+        "class": "Lotus"
+      },
+      {
+        "owner": "Chavez, Thomas",
+        "make": "Lotus",
+        "model": "23b",
+        "year": "1964",
+        "class": "Lotus"
+      },
+      {
+        "owner": "Stobbe, Michael",
+        "make": "Lotus",
+        "model": "Europa",
+        "year": "1973",
+        "class": "Lotus"
+      },
+      {
+        "owner": "White, David",
+        "make": "Locost",
+        "model": "Lotus 7 Replica",
+        "year": "2016",
+        "class": "Lotus"
+      }
+    ]
+  },
+  {
+    "class": "Lotus Elise/Exige/Evora",
+    "entrant": [
+      {
+        "owner": "Chavez, Thomas",
+        "make": "Lotus",
+        "model": "Mansory Evora",
+        "year": "2010",
+        "class": "Lotus Elise/Exige/Evora"
+      },
+      {
+        "owner": "Feakins, Jaclyn",
+        "make": "Lotus",
+        "model": "Evora",
+        "year": "2011",
+        "class": "Lotus Elise/Exige/Evora"
+      },
+      {
+        "owner": "Gomes, Marc",
+        "make": "Lotus",
+        "model": "Elise",
+        "year": "2006",
+        "class": "Lotus Elise/Exige/Evora"
+      },
+      {
+        "owner": "Ortenburger, Renn",
+        "make": "Lotus",
+        "model": "Motorsport Elise",
+        "year": "2000",
+        "class": "Lotus Elise/Exige/Evora"
+      },
+      {
+        "owner": "Sykes, Phil",
+        "make": "Lotus",
+        "model": "Elise",
+        "year": "2005",
+        "class": "Lotus Elise/Exige/Evora"
+      }
+    ]
+  },
+  {
+    "class": "MG",
+    "entrant": [
+      {
+        "owner": "Baez, Richard",
+        "make": "MG",
+        "model": "TF",
+        "year": "1954",
+        "class": "MG"
+      },
+      {
+        "owner": "Jenkins, Nick",
+        "make": "MG",
+        "model": "Special",
+        "year": "1960",
+        "class": "MG"
+      },
+      {
+        "owner": "Kline, Jay",
+        "make": "MG",
+        "model": "TD Mark 2",
+        "year": "1951",
+        "class": "MG"
+      }
+    ]
+  },
+  {
+    "class": "MGB",
+    "entrant": [
+      {
+        "owner": "Biagi, Carl",
+        "make": "MG",
+        "model": "BGT",
+        "year": "1972",
+        "class": "MGB"
+      },
+      {
+        "owner": "Cawsey, Paul",
+        "make": "MG",
+        "model": "MGB convertible  MK1",
+        "year": "1966",
+        "class": "MGB"
+      },
+      {
+        "owner": "Englehart, R Hays",
+        "make": "MG",
+        "model": "B",
+        "year": "1973",
+        "class": "MGB"
+      },
+      {
+        "owner": "Heim, Mark",
+        "make": "MG",
+        "model": "MGB",
+        "year": "1966",
+        "class": "MGB"
+      },
+      {
+        "owner": "Hunt, John",
+        "make": "MG",
+        "model": "MGB GT",
+        "year": "1971",
+        "class": "MGB"
+      },
+      {
+        "owner": "Nichols, Dennis",
+        "make": "MG",
+        "model": "MGB Roadster",
+        "year": "1969",
+        "class": "MGB"
+      },
+      {
+        "owner": "Royer, Chuck",
+        "make": "MG",
+        "model": "B Slightly Modified",
+        "year": "1964",
+        "class": "MGB"
+      },
+      {
+        "owner": "Van Ryn, Susan W Milner/",
+        "make": "MG",
+        "model": "B GT",
+        "year": "1967",
+        "class": "MGB"
+      }
+    ]
+  },
+  {
+    "class": "Mini  Mk III-VII",
+    "entrant": [
+      {
+        "owner": "Barrow, Margaret",
+        "make": "Morris",
+        "model": "Mini 1000",
+        "year": "1975",
+        "class": "Mini  Mk III-VII"
+      },
+      {
+        "owner": "Dewey, Craig",
+        "make": "Morris",
+        "model": "Mini - saloon",
+        "year": "1972",
+        "class": "Mini  Mk III-VII"
+      },
+      {
+        "owner": "Dyer, Joe",
+        "make": "Austin",
+        "model": "Mini Mk III",
+        "year": "1974",
+        "class": "Mini  Mk III-VII"
+      },
+      {
+        "owner": "Giovannoni, Peter",
+        "make": "Austin",
+        "model": "Mini 1.3i",
+        "year": "1975",
+        "class": "Mini  Mk III-VII"
+      },
+      {
+        "owner": "Kaye, Pat",
+        "make": "Austin",
+        "model": "Mini Clubman",
+        "year": "1972",
+        "class": "Mini  Mk III-VII"
+      },  
+      {
+        "owner": "Salazar, Gilbert",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1972",
+        "class": "Mini  Mk III-VII"
+      },
+      {
+        "owner": "Sherman, Rick",
+        "make": "MINI",
+        "model": "MkVII Coupe",
+        "year": "1997",
+        "class": "Mini  Mk III-VII"
+      },
+      {
+        "owner": "Wu, Patrick",
+        "make": "Morris",
+        "model": "Mini",
+        "year": "1997",
+        "class": "Mini  Mk III-VII"
+      }
+    ]
+  },
+  {
+    "class": "MINI Gen. 1",
+    "entrant": [
+      {
+        "owner": "Feakins, Jaclyn",
+        "make": "MINI",
+        "model": "Cooper S",
+        "year": "2004",
+        "class": "MINI Gen. 1"
+      },
+      {
+        "owner": "Gagon, Terri",
+        "make": "MINI",
+        "model": "Cooper MCS JCW",
+        "year": "2005",
+        "class": "MINI Gen. 1"
+      },
+      {
+        "owner": "Sherman, Rick",
+        "make": "MINI",
+        "model": "R53 Mk1",
+        "year": "2002",
+        "class": "MINI Gen. 1"
+      },
+      {
+        "owner": "Tildelsey, Alex",
+        "make": "MINI",
+        "model": "Cooper S",
+        "year": "2004",
+        "class": "MINI Gen. 1"
+      }
+    ]
+  },
+  {
+    "class": "MINI Gen. 2",
+    "entrant": [
+      {
+        "owner": "Bennett, David",
+        "make": "Mini",
+        "model": "R56 S",
+        "year": "2008",
+        "class": "MINI Gen. 2"
+      },
+      {
+        "owner": "Lee, Gordon",
+        "make": "MINI",
+        "model": "Cooper S Coupe",
+        "year": "2012",
+        "class": "MINI Gen. 2"
+      },
+      {
+        "owner": "McWilliams, Wendy",
+        "make": "MINI",
+        "model": "Countryman",
+        "year": "2014",
+        "class": "MINI Gen. 2"
+      },
+      {
+        "owner": "Noh, Sean",
+        "make": "Mini",
+        "model": "Cooper",
+        "year": "2010",
+        "class": "MINI Gen. 2"
+      },
+      {
+        "owner": "Sherman, Rick",
+        "make": "MINI",
+        "model": "R60 Countryman S",
+        "year": "2016",
+        "class": "MINI Gen. 2"
+      },
+      {
+        "owner": "Tildesley, Nikki",
+        "make": "MINI",
+        "model": "Cooper S Roadster",
+        "year": "2013",
+        "class": "MINI Gen. 2"
+      }
+    ]
+  },
+  {
+    "class": "MINI Gen. 3",
+    "entrant": [
+      {
+        "owner": "Gil-Palacios, Lucila",
+        "make": "Mini",
+        "model": "Cooper F56s",
+        "year": "2015",
+        "class": "MINI Gen. 3"
+      },
+      {
+        "owner": "Homer, Nancy",
+        "make": "MINI",
+        "model": "Cooper F57 cabriolet",
+        "year": "2019",
+        "class": "MINI Gen. 3"
+      },
+      {
+        "owner": "Martin, Shawn",
+        "make": "MINI",
+        "model": "F-56 / JCW  /GEN 3",
+        "year": "2019",
+        "class": "MINI Gen. 3"
+      },
+      {
+        "owner": "Rush/Gutierrez, Robert/ Jessica",
+        "make": "MINI",
+        "model": "Cooper S",
+        "year": "2019",
+        "class": "MINI Gen. 3"
+      }
+    ]
+  },
+  {
+    "class": "Mini MK I & II",
+    "entrant": [
+      {
+        "owner": "Biddle, Andy",
+        "make": "Austin",
+        "model": "Mini Cooper S (MKII)",
+        "year": "1968",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Brothers, Jon",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1970",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Del Castello, Jerry",
+        "make": "Mini",
+        "model": "Cooper S",
+        "year": "1966",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Dunning, Todd",
+        "make": "Austin",
+        "model": "Cooper",
+        "year": "1962",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Goldy, Daniel",
+        "make": "Austin",
+        "model": "Mini",
+        "year": "1968",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Hurlburt, Bruce",
+        "make": "Austin",
+        "model": "Mini MK2",
+        "year": "1967",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Lofgren, Kit and Tom",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1967",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "McWilliams, John",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1962",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Pierson, Ted",
+        "make": "Austin",
+        "model": "Mini",
+        "year": "1960",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Predmore, Jim",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1966",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Rosenlicht, Nicholas",
+        "make": "Austin/Radford",
+        "model": "Mini de Ville Grande Luxe",
+        "year": "1966",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Santarinala, Dennis",
+        "make": "Morris",
+        "model": "Cooper S “CRX90B” Works Rally tribute",
+        "year": "1964",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Semler, Dennis",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1964",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Tildesley, Simon",
+        "make": "Morris",
+        "model": "Mini Minor",
+        "year": "1964",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Wankle, Paul",
+        "make": "Austin",
+        "model": "Mini Cooper S",
+        "year": "1967",
+        "class": "Mini MK I & II"
+      },
+      {
+        "owner": "Weemaes, Anita",
+        "make": "Morris",
+        "model": "Cooper S",
+        "year": "1965",
+        "class": "Mini MK I & II"
+      }
+    ]
+  },
+  {
+    "class": "Mini Variant",
+    "entrant": [
+      {
+        "owner": "Becker, Jonathon",
+        "make": "Morris",
+        "model": "Traveller",
+        "year": "1964",
+        "class": "Mini Variant"
+      },
+      {
+        "owner": "Connolly, D. Martin",
+        "make": "Austin",
+        "model": "Mini Van",
+        "year": "1972",
+        "class": "Mini Variant"
+      },
+      {
+        "owner": "Gagon, William",
+        "make": "Morris",
+        "model": "Mini Pickup",
+        "year": "1965",
+        "class": "Mini Variant"
+      },
+      {
+        "owner": "Haub, Richard",
+        "make": "Austin",
+        "model": "Traveller",
+        "year": "1969",
+        "class": "Mini Variant"
+      },
+      {
+        "owner": "Parker, Daniel",
+        "make": "Riley",
+        "model": "Elf",
+        "year": "1966",
+        "class": "Mini Variant"
+      },
+      {
+        "owner": "Racine, Julie",
+        "make": "Austin",
+        "model": "Mini Pickup",
+        "year": "1963",
+        "class": "Mini Variant"
+      },
+      {
+        "owner": "Smith, Renee",
+        "make": "Morris",
+        "model": "Mini Traveller",
+        "year": "1965",
+        "class": "Mini Variant"
+      }
+    ]
+  },
+  {
+    "class": "Morgan",
+    "entrant": [
+      {
+        "owner": "Ayers, Larry",
+        "make": "Morgan",
+        "model": "Blackburne Aero",
+        "year": "1929",
+        "class": "Morgan"
+      },
+      {
+        "owner": "Fisher, Philip",
+        "make": "Morgan",
+        "model": "Aero 8",
+        "year": "2005",
+        "class": "Morgan"
+      },
+      {
+        "owner": "Marchant, Paul",
+        "make": "Morgan",
+        "model": "Roadster",
+        "year": "1965",
+        "class": "Morgan"
+      },
+      {
+        "owner": "Mieger, Martin",
+        "make": "Morgan",
+        "model": "Plus 8",
+        "year": "2003",
+        "class": "Morgan"
+      },
+      {
+        "owner": "Smith, Richard R.",
+        "make": "Morgan",
+        "model": "Plus 4",
+        "year": "1963",
+        "class": "Morgan"
+      }
+    ]
+  },
+  {
+    "class": "Morris",
+    "entrant": [
+      {
+        "owner": "Lukes, Paul",
+        "make": "Morris",
+        "model": "Minor Traveller",
+        "year": "1958",
+        "class": "Morris"
+      },
+      {
+        "owner": "Marcellini, Marcia",
+        "make": "Morris",
+        "model": "Minor Traveller",
+        "year": "1958",
+        "class": "Morris"
+      },
+      {
+        "owner": "McGinnis, John",
+        "make": "Morris",
+        "model": "Minor Pickup",
+        "year": "1960",
+        "class": "Morris"
+      }
+    ]
+  },
+  {
+    "class": "Motorcycle",
+    "entrant": [
+      {
+        "owner": "Aguas, Allan",
+        "make": "Triumph",
+        "model": "Thruxton 900",
+        "year": "2014",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Anthony, Allan",
+        "make": "Norton",
+        "model": "Commando",
+        "year": "1972",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Dunlavey, Scott",
+        "make": "Triumph",
+        "model": "TR6R",
+        "year": "1967",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Fritsch, Christoph",
+        "make": "Norton",
+        "model": "Altlas",
+        "year": "1968",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Lowery, Jimmie",
+        "make": "Triumph",
+        "model": "T120R Bonneville",
+        "year": "1964",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Simeral, Robert",
+        "make": "Triumph",
+        "model": "Trophy 500 (T100C)",
+        "year": "1970",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Smith, Taylor",
+        "make": "Norton",
+        "model": "Commando MKIII",
+        "year": "1975",
+        "class": "Motorcycle"
+      },
+      {
+        "owner": "Somers, Scott",
+        "make": "Norton",
+        "model": "Commando 850 S MkII",
+        "year": "1974",
+        "class": "Motorcycle"
+      }
+    ]
+  },
+  {
+    "class": "Sprite/Midget",
+    "entrant": [
+      {
+        "owner": "Barnett, Blair",
+        "make": "Austin Healey",
+        "model": "Sprite Mark 1 (BugEye)",
+        "year": "1959",
+        "class": "Sprite/Midget"
+      },
+      {
+        "owner": "Butler, Richard",
+        "make": "MG",
+        "model": "Midget",
+        "year": "1972",
+        "class": "Sprite/Midget"
+      },
+      {
+        "owner": "Curtice, Jim",
+        "make": "Austin Healey",
+        "model": "Bugeye",
+        "year": "1959",
+        "class": "Sprite/Midget"
+      },
+      {
+        "owner": "Jones, Matthew",
+        "make": "Austin Healey",
+        "model": "Sprite",
+        "year": "1960",
+        "class": "Sprite/Midget"
+      },
+      {
+        "owner": "Mueller, Mary",
+        "make": "Austin Healey",
+        "model": "Bug Eye Sprite",
+        "year": "1959",
+        "class": "Sprite/Midget"
+      },
+      {
+        "owner": "Sheffield, Stephen",
+        "make": "Austin Healey",
+        "model": "Sprite ('Bugeye')",
+        "year": "1960",
+        "class": "Sprite/Midget"
+      },
+      {
+        "owner": "Williams, Rod",
+        "make": "Austin Healey",
+        "model": "Sprite Mark 1 (Frogeye)",
+        "year": "1959",
+        "class": "Sprite/Midget"
+      }
+    ]
+  },
+  {
+    "class": "Triumph",
+    "entrant": [
+      {
+        "owner": "Gorzynski, Edward",
+        "make": "Triumph",
+        "model": "TR8",
+        "year": "1978",
+        "class": "Triumph"
+      },
+      {
+        "owner": "Gross, Michael",
+        "make": "Triumph",
+        "model": "TR4",
+        "year": "1964",
+        "class": "Triumph"
+      },
+      {
+        "owner": "Metcalf, Gavin",
+        "make": "Triumph",
+        "model": "Spitfire mkIV",
+        "year": "1971",
+        "class": "Triumph"
+      },
+      {
+        "owner": "Rogers, James",
+        "make": "Triumph",
+        "model": "2000 ROADSTER",
+        "year": "1949",
+        "class": "Triumph"
+      },
+      {
+        "owner": "Sendek, Dan",
+        "make": "Triumph",
+        "model": "TR4A",
+        "year": "1966",
+        "class": "Triumph"
+      }
+    ]
+  },
+  {
+    "class": "Triumph TR 6",
+    "entrant": [
+      {
+        "owner": "Dworkin, Michael",
+        "make": "Triumph",
+        "model": "TR6",
+        "year": "1973",
+        "class": "Triumph TR 6"
+      },
+      {
+        "owner": "Matzke, Richard",
+        "make": "Triumph",
+        "model": "TR6",
+        "year": "1974",
+        "class": "Triumph TR 6"
+      },
+      {
+        "owner": "Schmidt, John",
+        "make": "Triumph",
+        "model": "TR6",
+        "year": "1974",
+        "class": "Triumph TR 6"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[{
+    "url": "http://www.blackhawkmuseum.org",
+    "active": "true",
+    "image": "sponsor-blackhawk.jpg",
+    "name": "Blackhawk Museum",
+    "desc": "<p>The Blackhawk Automotive Museum (founded 1988) in Danville, California is best known for its significant collection of classic, rare and unique automobiles. The Museum is a not-for-profit 501(c)3 private operating foundation. </p><p>The museum houses about ninety classic cars located within the Blackhawk Plaza shopping center, and is an affiliate of the Smithsonian Affiliations program.</p>"
+  }, {
+    "url": "http://www.calautomuseum.org",
+    "active": "true",
+    "image": "sponsor-caf.jpg",
+    "name": "California Auto Museum",
+    "desc": "<p>California Automobile Museum is an automobile museum located in Sacramento, California. It has a collection of over 150 classic cars, race cars, muscle cars and early models displayed throughout 72,000 square feet of museum space. </p>"
+  }, {
+    "url": "https://classicmotorsports.com",
+    "active": "true",
+    "image": "sponsor-classic-motorsports.jpg",
+    "name": "Classic Motorsports Magazine",
+    "desc": "<p>The American periodical devoted to classic cars, classic car restoration and vintage racing. It was established in 1986 and is published six times a year. </p><p> Classic Motorsports focuses primarily on how enthusiasts of any means can own and enjoy classic automobiles. The magazine emphasizes that classic cars are meant to be driven rather than displayed or put in storage. </p>"
+  },{
+    "url": "https://www.griotsgarage.com",
+    "active": "true",
+    "image": "sponsor-griots.jpg",
+    "name": "Griot's Garage",
+    "desc": "<p>We're doing what we love — spending time with cars and the people who love them. That's our kind of fun. We are inspired by and proud of the results our customers achieve. There's no better feeling. We invite car lovers everywhere to join us in celebrating the pleasure of owning, improving, and caring for cars.</p>"
+  },{
+    "url": "https://www.grundy.com",
+    "active": "true",
+    "image": "sponsor-grundy.jpg",
+    "name": "Grundy Insurance",
+    "desc": ""
+  },{
+    "url": "https://www.hemmings.com",
+    "active": "true",
+    "image": "sponsor-hemmings.jpg",
+    "name": "Hemmings Motor News",
+    "desc": "<p>Caters to traders and collectors of antique, classic, and exotic sports cars. It is the largest and oldest publication of its type in the United States, with sales of 215,000 copies per month, and is best known for its large classified advertising sections. The magazine counts as subscribers and advertisers practically every notable seller and collector of classic cars, including Jay Leno and his Big Dog Garage, and most collector car clubs are included in its directory. </p>"
+  }, {
+    "url": "http://www.minimania.com",
+    "active": "true",
+    "image": "sponsor-minimania.jpg",
+    "name": "Mini Mania",
+    "desc": "<p>Mini Mania specializes in car parts and accessories for all A-series british cars including: The New MINI Cooper and S, Austin Mini, Austin Mini Cooper and S. Shop Austin Mini Cooper Accessories and Parts including maintenance, repair, performance and interior/exterior upgrades. A trusted industry leader since 1974.</p>"
+  }, {
+    "url": "http://moasf.com",
+    "active": "true",
+    "image": "sponsor-moasf.jpg",
+    "name": "Mini Owners of America - San Francisco",
+    "desc": "<p>The nations's first Mini club was created in 1965 as a support group for an uncommon and intriguing car in Northern California. Its goal was to get people together from all parts of the Bay Area, share ideas, information, and stories about Minis as well as to share in the excitement of driving these cars on our wonderful San Francisco/Bay Area roads. Over the last four decades, the club has continued to strive to accomplish this mission. </p>"
+  }, {
+    "url": "http://www.mossmotors.com",
+    "active": "true",
+    "image": "sponsor-moss.jpg",
+    "name": "Moss Motors",
+    "desc": "<p>Moss Motors is the worlds largest and oldest British parts supplier. We specialize in MG, TC, TD, TF, MGA, MGB, MGC, Midget, Triumph, TR2, TR3, TR3A, TR3B and many more. </p><p>Since its start in 1948, and still today, Moss Motors is a company run by enthusiasts for enthusiasts. Moss customers drive and maintain vehicles that reflect golden days of British motoring and sports cars, and many of these dedicated individuals have been our customers for decades.</p>"
+  },{
+    "url": "https://www.redlineoil.com",
+    "active": "false",
+    "image": "sponsor-red-line.jpg",
+    "name": "Red Line Synthetic Oil",
+    "desc": ""
+  },{
+    "url": "https://www.rockauto.com",
+    "active": "true",
+    "image": "sponsor-rock-auto.jpg",
+    "name": "Rock Auto",
+    "desc": ""
+  },{
+    "url": "https://www.rodneystrong.com/",
+    "active": "true",
+    "image": "sponsor-rodney-strong.jpg",
+    "name": "Rodney Strong Vineyards",
+    "desc": "<p>Through the years, Rodney Strong Vineyards has earned the reputation for critically acclaimed Single Vineyard and Reserve wines, stand out Estate releases and best-in-class Sonoma County varietal wines.</p>"
+  }, {
+    "url": "http://www.7ent.com",
+    "active": "true",
+    "image": "sponsor-seven.jpg",
+    "name": "Seven Mini Parts",
+    "desc": "<p>Seven Enterprises has been in existence since 1974, supplying the Mini enthusiast with replacement parts and accessories for Mini owners in North America and around the world. Seven Enterprises enjoys their reputation as the best-staffed and best-run Mini parts supplier in the U.S.</p>"
+  }, {
+    "url": "http://www.tirerack.com",
+    "active": "true",
+    "image": "sponsor-tire-rack.jpg",
+    "name": "Tire Rack",
+    "desc": "<p>Tire Rack are your performance experts for tires and wheels. Tire Rack's unmatched selection combined with helpful tools and reviews mean you'll find exactly what you need and can get it delivered super fast. Over 8,000 local installers available, too.</p>"
+  }, {
+    "url": "http://www.victoriabritish.com",
+    "active": "true",
+    "image": "sponsor-victoria.jpg",
+    "name": "Victoria British",
+    "desc": "<p>Shop for British sports car parts and accessories for your 1955-1979 MG, 1953-1981 Triumph, 1953-1968 Austin-Healey and 1959-1968 Sunbeam from Victoria British Ltd. </p>"
+  }
+]
