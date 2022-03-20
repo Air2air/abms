@@ -12,7 +12,7 @@ $navbar-height: 70px;
     justify-content: space-around;
     height: $navbar-height;
     .header-logo {
-      width: 200px;
+      width: 100px;
     }
     a {
       font-family: $font-navbar;
@@ -26,7 +26,7 @@ $navbar-height: 70px;
 
 /*---------- Colors-----------*/
 
-$navbar-color: darken($base-color, 10%);
+$navbar-color: $base-color;
 $navbar-hover-color: lighten($navbar-color, 5%);
 $text-navbar: white;
 .outer {

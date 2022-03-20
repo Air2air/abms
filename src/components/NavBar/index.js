@@ -1,21 +1,27 @@
 import {Link} from 'react-router-dom'
-import logo from '../../assets/images/logo-header.svg'
+import logo from '../../images/site/logo.png'
 import './index.scss'
+
+const navLinks = [
+  {id: 0, name: 'Home', link: '/'},
+  {id: 9, name: 'Marques', link: 'marques'},
+  {id: 4, name: 'Location', link: '/location'},
+  {id: 5, name: 'Sponsors', link: '/sponsors'},
+  {id: 6, name: 'FAQ', link: '/faq'},
+  {id: 7, name: 'Register', link: '/register'},
+  {id: 2, name: 'Contact', link: '/contact'},
+]
 
 const NavBar = () => (
   <>
     <div className="container-fluid outer">
       <div className="container inner">
         <img className="header-logo" src={logo} alt="logo" />
-        <Link className="nav-link" to="/">
-          Home
-        </Link>
-        <Link className="nav-link" to="/about">
-          About
-        </Link>
-        <Link className="nav-link" to="/contact">
-          Contact
-        </Link>
+        {navLinks.map(({id, link, name}) => (
+          <Link key={id} className="nav-link" to={link}>
+            {name}
+          </Link>
+        ))}
       </div>
     </div>
   </>

@@ -6,9 +6,9 @@ $banner-xs-height: 120px;
 $banner-sm-height: 160px;
 $font-title: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 $font-subtitle: 'Roboto', Arial, Helvetica, sans-serif;
-$font-text: 'Merriweather', serif;
+$font-serif: 'Merriweather', serif;
 
-$font-title: $font-text;
+$font-title: $font-serif;
 
 /* ------- GLOBE HEADER ---------*/
 
@@ -32,46 +32,6 @@ $globe-color-right: lighten($base-color, 30%);
 
 /*----------- RESPONSIVE -------------*/
 
-.header-banner {
-  @include breakpoint-xs {
-    height: $banner-xs-height;
-  }
-  @include breakpoint-sm {
-    height: $banner-sm-height;
-  }
-  .message {
-    @include breakpoint-xs {
-      font-family: $font-title;
-      font-size: 1.3em;
-      line-height: $messaging-line-height;
-    }
-    @include breakpoint-sm {
-      font-family: $font-title;
-      font-size: 1.4em;
-      line-height: $messaging-line-height;
-    }
-    @include breakpoint-md {
-      font-family: $font-title;
-      font-size: 1.5em;
-      line-height: $messaging-line-height;
-    }
-  }
-}
-
-.header-banner-background {
-  .header-banner {
-    background: url('../../assets/images/globe.png') right bottom no-repeat;
-    @include breakpoint-xs {
-      background-size: 150px;
-    }
-    @include breakpoint-sm {
-      background-size: 250px;
-    }
-    @include breakpoint-md {
-      background-size: 400px;
-    }
-  }
-}
 
 /*----------- COLORS ---------------*/
 
