@@ -1,0 +1,46 @@
+@import '../../scss/variables';
+
+$card-height: 120px;
+$text-card: white;
+$gutter:20px;
+
+.card-grid {
+  height: $card-height * 2.3;
+  display: grid;
+  column-gap: $gutter;
+  row-gap: $gutter;
+  grid-template-columns: auto auto auto;
+  align-content: space-evenly;
+  align-content: center;
+  .card-item {
+    height: $card-height;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    border-radius: 5px;
+    .text {
+      font-family: $font-serif;
+      font-size: 2rem;
+      color: $text-card;
+      text-shadow: rgba(0, 0, 0, 1) 2px 2px 5px;
+    }
+  }
+}
+
+/*---------- Colors-----------*/
+
+// .card-grid {
+//   background: red;
+//   .card-item {
+//     background: gold;
+//     .text {
+//       background: blue;
+//     }
+//   }
+// }

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "Schedule",
+        "link": "/schedule",
+        "image": "card-schedule.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Marques",
+        "link": "/marques",
+        "image": "card-marques.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Location",
+        "link": "/location",
+        "image": "card-location.jpg"
+    },
+    {
+        "id": 4,
+        "name": "FAQ",
+        "link": "/faq",
+        "image": "card-history.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Register",
+        "link": "/register",
+        "image": "card-registration.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Contact",
+        "link": "/contact",
+        "image": "card-contact.jpg"
+    }
+]
