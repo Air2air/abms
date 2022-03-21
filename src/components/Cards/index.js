@@ -8,14 +8,18 @@ const Cards = () => (
   <>
     <div className="card-grid">
       {cards.map(card => (
-        <Link
-          className="card-item"
-          key={card.id}
-          to={card.link}
-          style={{backgroundImage: `url(${imageConcat(card.image)})`}}
-        >
-          <div className="text">{card.name}</div>
-        </Link>
+        <>
+          <div className="card-item">
+            <Link
+              className="card-inner"
+              key={card.id}
+              to={card.link}
+              style={{backgroundImage: `url(${imageConcat(card.image)})`}}
+            >
+              <div className="card-text">{card.name}</div>
+            </Link>
+          </div>
+        </>
       ))}
     </div>
   </>

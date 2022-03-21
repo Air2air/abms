@@ -2,7 +2,7 @@
 
 $card-height: 120px;
 $text-card: white;
-$gutter:20px;
+$gutter: 20px;
 
 .card-grid {
   height: $card-height * 2.3;
@@ -14,21 +14,40 @@ $gutter:20px;
   align-content: center;
   .card-item {
     height: $card-height;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: $font-serif;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-decoration: none;
+    position: relative;
+
     border-radius: 5px;
-    .text {
+    overflow: hidden;
+    .card-inner {
+      height: $card-height;
+      width: 100%;
+      position: absolute;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+    .card-text {
       font-family: $font-serif;
       font-size: 2rem;
       color: $text-card;
       text-shadow: rgba(0, 0, 0, 1) 2px 2px 5px;
+    }
+  }
+}
+
+.card-grid {
+  .card-item {
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.03);
+    }
+    .card-inner {
+      .card-text {
+      }
     }
   }
 }
@@ -39,7 +58,10 @@ $gutter:20px;
 //   background: red;
 //   .card-item {
 //     background: gold;
-//     .text {
+//   }
+//   .card-inner {
+//     background: green;
+//     .card-text {
 //       background: blue;
 //     }
 //   }
