@@ -1,8 +1,8 @@
 [
     {
         "id": 0,
-        "name": "Schedule",
-        "link": "/schedule",
+        "name": "Home",
+        "link": "/",
         "image": "card-schedule.jpg"
     },
     {

@@ -1,0 +1,62 @@
+[
+    {
+        "image": "marque-sm-ajs.jpg",
+        "name": "AJS"
+    },
+    {
+        "image": "marque-sm-bsa.jpg",
+        "name": "BSA"
+    },
+    {
+        "image": "marque-sm-excelsior.jpg",
+        "name": "Excelsior"
+    },
+    {
+        "image": "marque-sm-francis-barnett.jpg",
+        "name": "Francis Barnett"
+    },
+    {
+        "image": "marque-sm-greeves.jpg",
+        "name": "Greeves"
+    },
+    {
+        "image": "marque-sm-hrd.jpg",
+        "name": "HRD"
+    },
+    {
+        "image": "marque-sm-matchless.jpg",
+        "name": "Matchless"
+    },
+    {
+        "image": "marque-sm-norton.jpg",
+        "name": "Norton"
+    },
+    {
+        "image": "marque-sm-rickman.jpg",
+        "name": "Rickman"
+    },
+    {
+        "image": "marque-sm-royal-enfield.jpg",
+        "name": "Royal Enfield"
+    },
+    {
+        "image": "marque-sm-rudge.jpg",
+        "name": "Rudge"
+    },
+    {
+        "image": "marque-sm-singer.jpg",
+        "name": "Singer"
+    },
+    {
+        "image": "marque-sm-triumph-cycle.jpg",
+        "name": "Triumph"
+    },
+    {
+        "image": "marque-sm-velocette.jpg",
+        "name": "Velocette"
+    },
+    {
+        "image": "marque-sm-vincent.jpg",
+        "name": "Vincent"
+    }
+]

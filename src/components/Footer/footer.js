@@ -1,9 +1,18 @@
 import {Link} from 'react-router-dom'
 import logo from '../../images/site/logo.png'
-import navLinks from '../../data/nav.json'
 import './styles.scss'
 
-const NavBar = () => (
+const navLinks = [
+  {id: 0, name: 'Home', link: '/'},
+  {id: 9, name: 'Marques', link: 'marques'},
+  {id: 4, name: 'Location', link: '/location'},
+  {id: 5, name: 'Sponsors', link: '/sponsors'},
+  {id: 6, name: 'FAQ', link: '/faq'},
+  {id: 7, name: 'Register', link: '/register'},
+  {id: 2, name: 'Contact', link: '/contact'},
+]
+
+const Footer = () => (
   <>
     <div className="container-fluid outer">
       <div className="container inner">
@@ -18,4 +27,4 @@ const NavBar = () => (
   </>
 )
 
-export default NavBar
+export default Footer
