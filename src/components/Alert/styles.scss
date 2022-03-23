@@ -1,35 +1,31 @@
 @import '../../scss/_variables.scss';
 
-$messaging-line-height: 1.2em;
-$messaging-letter-spacing: -0.04em;
-$alert-xs-height: 120px;
-$alert-sm-height: 160px;
+$alert-height: 40px;
 
 .alert-wrapper {
-  height: auto;
-  padding:12px 0;
-  position: relative;
-  top: 0;
+  height: $alert-height;
   width: 100%;
-  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   .message {
+    font-size: 0.94rem;
     font-weight: normal;
-    letter-spacing: $messaging-letter-spacing;
-    padding: 0 20% 0 20%;
-    text-align: center;
   }
 }
-
-/*----------- RESPONSIVE -------------*/
 
 /*----------- COLORS ---------------*/
 
 .alert-wrapper {
   background: darken($base-color, 10%);
   .message {
-    color: white; //background: red;
+    color: lighten($base-color, 40%);
   }
 }
+
+// .alert-wrapper {
+//   background: red;
+//   .message {
+//     background: gold;
+//   }
+// }

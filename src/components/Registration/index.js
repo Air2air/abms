@@ -1,8 +1,6 @@
 import {Link} from 'react-router-dom'
+import {eventBrite} from '../../data/constants'
 import './styles.scss'
-
-const eventBrite =
-  'https://www.eventbrite.com/e/2019-moasf-blackhawk-all-british-motor-show-tickets-163495711073'
 
 const Registration = () => (
   <div className="container content">

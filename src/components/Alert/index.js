@@ -1,11 +1,12 @@
+import {IoTime} from 'react-icons/io5'
+import {alertMessage} from '../../data/constants'
 import './styles.scss'
 
 const Alert = () => (
-  <div className="container-fluid alert-wrapper">
+  <div className="alert-wrapper">
     <div className="container">
       <div className="message">
-        Advancing nuclear energy&apos;s security, environmental and economic
-        benefits for a sustainable future.
+        <IoTime /> {alertMessage}
       </div>
     </div>
   </div>

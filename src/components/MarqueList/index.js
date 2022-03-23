@@ -1,4 +1,3 @@
-import Image from 'react-bootstrap/Image'
 import marques from '../../data/marques.json'
 import './styles.scss'
 

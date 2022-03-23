@@ -1,6 +1,8 @@
 import Image from 'react-bootstrap/Image'
 import './styles.scss'
 
+const imageConcat = image => `/images/content/${image}`
+
 const Faq = () => (
   <>
     <div className="container">
@@ -11,7 +13,7 @@ const Faq = () => (
       <p>
         <Image
           className="embed-image right fade-in three"
-          src="./assets/images/content/pa-meet.jpg"
+          src={imageConcat('pa-meet.jpg')}
           alt="image"
         />
         Like many things with a long history, the beginnings of the All British
@@ -32,7 +34,7 @@ const Faq = () => (
       <p>
         <Image
           className="embed-image left fade-in four"
-          src="./assets/images/content/hayward-6.jpg"
+          src={imageConcat('hayward-6.jpg')}
           alt="image"
         />
         The Mini Owners decided to continue with both the Car Show and Swap Meet
@@ -52,7 +54,7 @@ const Faq = () => (
       <p>
         <Image
           className="embed-image right fade-in five"
-          src="./assets/images/content/hayward-1.jpg"
+          src={imageConcat('hayward-1.jpg')}
           alt="image"
         />
         The show moved to Blackhawk Museum in 2015 because the field at Hayward
@@ -65,12 +67,12 @@ const Faq = () => (
       </p>
       <p>
         Blackhawk welcomed the show, suggested the addition of British
-        Motorcycles and that's where we are now. The first year at Blackhawk was
-        very successful in terms of cars and bikes entered, but the swap meet
-        was not and has been discontinued. A new aspect to the show has been the
-        dedication of a part of the proceeds to the Museum Bus Fund which pays
-        for the transportation of school groups to visit the Museum's world
-        class Auto and Western Exhibits.
+        Motorcycles and that&apos;s where we are now. The first year at
+        Blackhawk was very successful in terms of cars and bikes entered, but
+        the swap meet was not and has been discontinued. A new aspect to the
+        show has been the dedication of a part of the proceeds to the Museum Bus
+        Fund which pays for the transportation of school groups to visit the
+        Museum&apos;s world class Auto and Western Exhibits.
       </p>
       <p>
         <i>- Nick Becker</i>

@@ -1,44 +1,59 @@
 @import '../../scss/variables';
-$font-navbar: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-$navbar-height: 70px;
+$footer-height: 70px;
 .outer {
-  height: $navbar-height;
+  height: auto;
   position: relative;
-  margin: 0;
+  padding-left: none;
+  padding-right: none;
+  margin: 0 auto 50px auto;
   .inner {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: $navbar-height;
-    .header-logo {
-      width: 100px;
+    justify-content: space-between;
+    height: $footer-height;
+    // position: relative;
+    .nav-links {
+      height: $footer-height;
+      display: flex;
+      align-items: center;
+      a.nav-link {
+        font-family: $font-serif;
+        font-size: 1.4em;
+        height: $footer-height;
+        line-height: $footer-height;
+        padding: 0 30px;
+      }
+      &.left {
+        margin-right: 30px;
+      }
+      &.right {
+        margin-left: 30px;
+      }
     }
-    a {
-      font-family: $font-navbar;
-      font-size: 1.4em;
-      height: $navbar-height;
-      line-height: $navbar-height * 1.3;
-      padding: 0 30px;
+    .header-logo {
+      // position: absolute;
+      margin-top: 16px;
+      width: 90px;
     }
   }
 }
 
 /*---------- Colors-----------*/
 
-$navbar-color: $base-color;
-$navbar-hover-color: lighten($navbar-color, 5%);
-$text-navbar: white;
+$footer-color: $base-color;
+$footer-hover-color: lighten($footer-color, 5%);
+$text-footer: white;
 .outer {
-  background: $navbar-color;
+  background: $footer-color;
   .inner {
-    color: $text-navbar;
+    color: $text-footer;
     a.nav-link {
       //background: gold;
-      color: $text-navbar;
-      text-shadow: 0 0 6px darken($navbar-color, 30%);
+      color: $text-footer;
+      text-shadow: 0 0 6px darken($footer-color, 30%);
       &:hover {
-        background: $navbar-hover-color;
+        background: $footer-hover-color;
       }
     }
   }
