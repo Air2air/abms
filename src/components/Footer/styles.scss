@@ -1,69 +1,84 @@
 @import '../../scss/variables';
-$footer-height: 220px;
+
+$footer-links-height: 80px;
+$footer-logos-height: 200px;
+
 $logo-size: 100px;
-.outer {
-  height: auto;
-  position: relative;
-  padding-left: none;
-  padding-right: none;
-  margin: 0 auto 50px auto;
-  .footer-inner {
-    height: $footer-height;
-    width: 100%;
+
+.footer-links-outer {
+  height: $footer-links-height;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .footer-links-inner {
+    height: $footer-links-height;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: $footer-height;
-    // position: relative;
-    .footer-links {
-      height: $footer-height;
-      display: flex;
-      align-items: center;
-      a.footer-link {
-        font-family: $font-serif;
-        font-size: 1em;
-        height: $footer-height;
-        line-height: $footer-height;
-        padding: 0 30px;
-      }
-    }
-    a.logo-link {
-      height: $logo-size;
-      width: $logo-size;
-      // box-sizing: none;
-    }
-    img.logo-footer {
-      height: $logo-size;
-      width: $logo-size;
-    }
-  }
-}
-
-/*---------- Colors-----------*/
-
-$footer-color: $base-color;
-$footer-hover-color: lighten($footer-color, 5%);
-$text-footer: white;
-.outer {
-  background: $footer-color;
-  .footer-inner {
-    color: $text-footer;
+    justify-content: center;
     a.footer-link {
-      //background: gold;
-      color: $text-footer;
-      text-shadow: 0 0 6px darken($footer-color, 30%);
-      &:hover {
-        background: $footer-hover-color;
-      }
+      font-family: $font-serif;
+      font-size: 1.2em;
+      height: $footer-links-height;
+      line-height: $footer-links-height;
+      padding: 0 30px;
+    }
+  }
+}
+
+.footer-logos-outer {
+  height: $footer-logos-height;
+  width: 100%;
+  .footer-logos-inner {
+    height: $footer-logos-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  a.logo-link {
+    height: $logo-size;
+    width: $logo-size;
+  }
+  img.logo-footer {
+    height: $logo-size;
+    width: $logo-size;
+    &.wide {
+      width: $logo-size * 1.5;
     }
   }
 }
 
 /*---------- Colors-----------*/
 
-// .outer {
+$footer-links-color: darken($base-color, 0%);
+$footer-link-hover-color: lighten($footer-links-color, 5%);
+$footer-logos-color: desaturate(lighten($base-color, 20%), 25%);
+$text-footer: white;
+
+.footer-links-outer {
+  background: $footer-links-color;
+  color: $text-footer;
+  a.footer-link {
+    // background: gold;
+    color: $text-footer;
+    text-shadow: 0 0 6px darken($footer-links-color, 30%);
+    &:hover {
+      background: $footer-link-hover-color;
+    }
+  }
+}
+
+.footer-logos-outer {
+  background: $footer-logos-color;
+  .footer-logos-inner {
+    color: $text-footer;
+  }
+}
+
+/*---------- Colors-----------*/
+
+// .footer-logos-outer{
 //   background: red;
-//   .footer-inner {
+//   .footer-logos-inner {
 //     background: gold;
 //     a.footer-link {
 //       background: blue;

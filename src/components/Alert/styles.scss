@@ -19,7 +19,7 @@ $alert-height: 40px;
 .alert-wrapper {
   background: darken($base-color, 10%);
   .message {
-    color: lighten($base-color, 40%);
+    color: desaturate(lighten($base-color, 40%), 25%);
   }
 }
 
