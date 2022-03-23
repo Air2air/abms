@@ -1,32 +1,33 @@
 import {Link} from 'react-router-dom'
-import Alert from '../Alert'
-import logo from '../../images/site/logo.png'
+import Image from 'react-bootstrap/Image'
+import logoMoasf from '../../images/site/moasf-logo.svg'
+import logoArms from '../../images/site/arms.png'
 import navLinks from '../../data/nav.json'
 import './styles.scss'
 
-const NavBar = () => (
+const Footer = () => (
   <>
     <div className="outer">
-      <Alert />
-      <div className="container inner">
-        <div className="nav-links left">
-          {navLinks.slice(0, 3).map(({id, link, name}) => (
-            <Link key={id} className="nav-link" to={link}>
+      <div className="container footer-inner">
+        <Image src={logoArms} className="logo-footer" />
+        <div className="footer-links">
+          {navLinks.map(({id, link, name}) => (
+            <Link key={id} className="footer-link" to={link}>
               {name}
             </Link>
           ))}
         </div>
-        <img className="header-logo" src={logo} alt="logo" />
-        <div className="nav-links right">
-          {navLinks.slice(3, 6).map(({id, link, name}) => (
-            <Link key={id} className="nav-link" to={link}>
-              {name}
-            </Link>
-          ))}
-        </div>
+        <a
+          href="http://www.moasf.com"
+          alt="Mini Owners of America"
+          target="top"
+          className="logo-link"
+        >
+          <Image src={logoMoasf} className="logo-footer" />
+        </a>
       </div>
     </div>
   </>
 )
 
-export default NavBar
+export default Footer
