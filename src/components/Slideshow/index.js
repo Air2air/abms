@@ -3,7 +3,8 @@ import Image from 'react-bootstrap/Image'
 import imageList from './imagesList.json'
 import './styles.scss'
 
-const searchDir = '../../../public/images/photos/'
+const envPath = process.env.PUBLIC_URL
+const searchDir = `/images/photos/`
 
 const Slideshow = () => {
   const [activeImage, setActiveImage] = useState(0)
@@ -20,10 +21,9 @@ const Slideshow = () => {
   return (
     <div className="slideshow">
       <Image
-        src="../../../public/images/photos/DSC_8324.jpeg"
-        alt="slideshow"
+        src={`${envPath}${searchDir}${imageList[activeImage]}`}
+        alt="doodle"
       />
-      <Image src={`${searchDir}${imageList[activeImage]}`} alt="doodle" />
     </div>
   )
 }
