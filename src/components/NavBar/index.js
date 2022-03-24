@@ -16,7 +16,7 @@ const NavBar = () => (
             </Link>
           ))}
         </div>
-        <img className="header-logo" src={logo} alt="logo" />
+
         <div className="nav-links right">
           {navLinks.slice(3, 6).map(({id, link, name}) => (
             <Link key={id} className="nav-link" to={link}>

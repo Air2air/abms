@@ -1,0 +1,14 @@
+@import '../../scss/variables';
+$logo-size: 120px;
+.logo-wrapper {
+  height:$logo-size;
+  position: fixed;
+  width:100%;
+  top:16px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  .logo-image {
+    height:$logo-size;
+  }
+}

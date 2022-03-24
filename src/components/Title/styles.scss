@@ -1,0 +1,31 @@
+@import '../../scss/_variables.scss';
+
+$alert-height: 40px;
+
+.alert-wrapper {
+  height: $alert-height;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .message {
+    font-size: 0.94rem;
+    font-weight: normal;
+  }
+}
+
+/*----------- COLORS ---------------*/
+
+.alert-wrapper {
+  background: darken($base-color, 10%);
+  .message {
+    color: desaturate(lighten($base-color, 40%), 25%);
+  }
+}
+
+// .alert-wrapper {
+//   background: red;
+//   .message {
+//     background: gold;
+//   }
+// }

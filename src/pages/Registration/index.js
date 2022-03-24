@@ -3,9 +3,11 @@ import {eventBrite} from '../../data/constants'
 import './styles.scss'
 
 const Registration = () => (
-  <div className="container content">
+  <div className="container">
     <div className="row">
-      <div className="col-12 text-center fade-in one">
+      <div className="col">
+        <h1>Exhibitor Registration</h1>
+        <h2>A century of motoring greatness </h2>
         <p>
           The show is free to the public. To enter your vehicle, please register
           below.

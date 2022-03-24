@@ -6,8 +6,8 @@ import './styles.scss'
 const envPath = process.env.PUBLIC_URL
 const searchDir = `/images/photos/`
 
-const Slide = ({timeInterval}) => {
-  const [activeImage, setActiveImage] = useState(0)
+const Slide = ({timeInterval, seed}) => {
+  const [activeImage, setActiveImage] = useState(seed)
 
   useEffect(() => {
     const interval = setInterval(() => {
