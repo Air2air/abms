@@ -16,7 +16,7 @@ const Slide = ({timeInterval, seed}) => {
     }, timeInterval)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [timeInterval])
 
   return (
     <div

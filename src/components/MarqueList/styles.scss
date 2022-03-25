@@ -1,18 +1,20 @@
 @import '../../scss/variables';
 $grid-item-size: 100px;
 $gutter: 20px;
-$card-breakpoint: 880px;
-
+$breakpoint-sm: 600px;
+$breakpoint-lg: 980px;
 .marque-grid {
   display: grid;
   column-gap: $gutter;
   row-gap: $gutter;
   justify-content: space-evenly;
-
-  @media (max-width: $card-breakpoint) {
+  @media screen and (max-width: $breakpoint-sm) {
     grid-template-columns: auto auto auto;
   }
-  @media (min-width: $card-breakpoint) {
+  @media screen and (max-width:$breakpoint-lg) {
+    grid-template-columns: auto auto auto auto;
+  }
+  @media screen and (min-width: $breakpoint-lg) {
     grid-template-columns: auto auto auto auto auto auto;
   }
   .marque-item {

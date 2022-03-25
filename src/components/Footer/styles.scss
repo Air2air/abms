@@ -1,29 +1,8 @@
 @import '../../scss/variables';
 
-$footer-links-height: 80px;
-$footer-logos-height: 200px;
+$footer-logos-height: 250px;
 
 $logo-size: 100px;
-
-.footer-links-outer {
-  height: $footer-links-height;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  .footer-links-inner {
-    height: $footer-links-height;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    a.footer-link {
-      font-family: $font-serif;
-      font-size: 1.2em;
-      height: $footer-links-height;
-      line-height: $footer-links-height;
-      padding: 0 30px;
-    }
-  }
-}
 
 .footer-logos-outer {
   height: $footer-logos-height;
@@ -49,23 +28,9 @@ $logo-size: 100px;
 
 /*---------- Colors-----------*/
 
-$footer-links-color: darken($base-color, 0%);
-$footer-link-hover-color: lighten($footer-links-color, 5%);
 $footer-logos-color: desaturate(lighten($base-color, 20%), 25%);
 $text-footer: white;
 
-.footer-links-outer {
-  background: $footer-links-color;
-  color: $text-footer;
-  a.footer-link {
-    // background: gold;
-    color: $text-footer;
-    text-shadow: 0 0 6px darken($footer-links-color, 30%);
-    &:hover {
-      background: $footer-link-hover-color;
-    }
-  }
-}
 
 .footer-logos-outer {
   background: $footer-logos-color;

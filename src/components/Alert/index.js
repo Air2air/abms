@@ -1,5 +1,5 @@
 import {IoTime} from 'react-icons/io5'
-import {alertMessage} from '../../data/constants'
+import {alertMessage} from '../../utilities/constants'
 import './styles.scss'
 
 const Alert = () => (

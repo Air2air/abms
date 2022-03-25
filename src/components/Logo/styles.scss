@@ -1,14 +1,30 @@
 @import '../../scss/variables';
 $logo-size: 120px;
 .logo-wrapper {
-  height:$logo-size;
-  position: fixed;
-  width:100%;
-  top:16px;
+  height: 70px;
+  width: $logo-size;
+  z-index: 1;
+  margin: -28px auto 0 auto;
   display: flex;
   justify-content: center;
   pointer-events: none;
   .logo-image {
-    height:$logo-size;
+    height: $logo-size;
+  }
+}
+
+.logo-wrapper-sm {
+  height: $logo-size;
+  width: $logo-size;
+  position:absolute;
+  top:110px;
+  z-index: 1;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  // background: gold;
+  .logo-image {
+    height: $logo-size * 1.4;
   }
 }

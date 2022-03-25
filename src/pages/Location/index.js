@@ -7,7 +7,10 @@ const Location = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <Map />
+          <Map
+            containerElement={<div style={{height: `400px`}} />}
+            mapElement={<div style={{height: `100%`}} />}
+          />
         </div>
       </div>
     </div>

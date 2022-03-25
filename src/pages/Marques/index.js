@@ -6,7 +6,7 @@ const Marques = () => (
   <>
     <Title
       title="Featured marques"
-      subtitle="a century of motoring greatness"
+      subtitle="see a century of motoring greatness"
     />
     <div className="container">
       <div className="row">

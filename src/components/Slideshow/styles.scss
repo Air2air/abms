@@ -14,14 +14,13 @@ $slideshow-height: 250px;
   );
   row-gap: 0px;
   grid-gap: 0px;
-  // grid-template-columns: repeat(3, 1fr);
   background: darken($base-color, 20%);
 }
 
 .slide {
-  height: $slideshow-height;
+  height: $slideshow-height * 1;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.7s ease;
 }

@@ -1,7 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Slideshow from './components/Slideshow'
-import Logo from './components/Logo'
 import Cards from './components/Cards'
 import Faq from './pages/Faq'
 import Home from './pages/Home'
@@ -17,7 +16,7 @@ const App = () => (
   <Router>
     <NavBar />
     <Slideshow />
-    <Logo />
+
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/faq" element={<Faq />} />

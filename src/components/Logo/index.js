@@ -1,11 +1,18 @@
 import logo from '../../images/site/logo.png'
 import './styles.scss'
 
-const Logo = () => (
+const Logo = ({sm}) => (
   <>
-    <div className="logo-wrapper">
-      <img className="logo-image" src={logo} alt="All British Motor Show" />
-    </div>
+    {sm && (
+      <div className="logo-wrapper-sm">
+        <img className="logo-image" src={logo} alt="All British Motor Show" />
+      </div>
+    )}
+    {!sm && (
+      <div className="logo-wrapper">
+        <img className="logo-image" src={logo} alt="All British Motor Show" />
+      </div>
+    )}
   </>
 )
 

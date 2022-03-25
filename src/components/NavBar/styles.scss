@@ -5,24 +5,21 @@ $navbar-height: 70px;
   position: relative;
   padding-left: none;
   padding-right: none;
-
   .inner {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     height: $navbar-height;
-    // position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     .nav-links {
       height: $navbar-height;
       display: flex;
       align-items: center;
+      justify-content: center;
       a.nav-link {
-        font-family: $font-serif;
-        font-size: 1.4em;
         height: $navbar-height;
+        font-family: $font-serif;
         line-height: $navbar-height;
-        padding: 0 30px;
       }
       &.left {
         margin-right: 30px;
@@ -31,7 +28,32 @@ $navbar-height: 70px;
         margin-left: 30px;
       }
     }
+  }
+}
 
+$breakpoint: 860px;
+
+@media screen and (min-width: $breakpoint) {
+  .inner {
+    grid-template-columns: auto 0.3fr auto;
+    .nav-links {
+      a.nav-link {
+        font-size: 1.4em;
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .inner {
+    grid-template-columns: auto 0.1fr auto;
+    .nav-links {
+      a.nav-link {
+        font-size: 1.2em;
+        padding: 0 10px;
+      }
+    }
   }
 }
 
@@ -45,7 +67,6 @@ $text-navbar: white;
   .inner {
     color: $text-navbar;
     a.nav-link {
-      //background: gold;
       color: $text-navbar;
       text-shadow: 0 0 6px darken($navbar-color, 30%);
       &:hover {
@@ -60,9 +81,17 @@ $text-navbar: white;
 // .outer {
 //   background: red;
 //   .inner {
-//     background: gold;
+//     // background: gold;
+//     .nav-links {
+//       &.left {
+//         background: blue;
+//       }
+//       &.right {
+//         background: gold;
+//       }
+//     }
 //     a.nav-link {
-//       background: blue;
+//       // background: red;
 //     }
 //   }
 // }

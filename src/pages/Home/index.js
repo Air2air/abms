@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import Title from '../../components/Title'
-import {showDateLong, alertMessage} from '../../data/constants'
+import {showDateLong} from '../../utilities/constants'
 import './styles.scss'
 
 const Home = () => (
@@ -26,7 +26,7 @@ const Home = () => (
             The ABMS has been presented by
             <a target="new" href="http://www.moasf.com">
               Mini Owners of America
-            </a>{' '}
+            </a>
             since 1991.
           </p>
         </div>
