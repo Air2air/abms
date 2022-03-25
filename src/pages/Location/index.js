@@ -1,15 +1,13 @@
-// import './styles.scss'
-
 import Map from '../../components/Map'
+import Title from '../../components/Title'
 
 const Location = () => (
   <>
+    <Title title="Location" subtitle="blackhawk plaza, danville" />
     <div className="container">
       <div className="row">
         <div className="col">
-          <h1>Featured marques</h1>
-          <h2>A century of motoring greatness </h2>
-          {/* <Map /> */}
+          <Map />
         </div>
       </div>
     </div>

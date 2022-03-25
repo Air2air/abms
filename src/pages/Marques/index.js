@@ -1,14 +1,16 @@
+import Title from '../../components/Title'
 import MarqueList from '../../components/MarqueList'
 import './styles.scss'
 
 const Marques = () => (
   <>
+    <Title
+      title="Featured marques"
+      subtitle="a century of motoring greatness"
+    />
     <div className="container">
       <div className="row">
         <div className="col">
-          <h1>Featured marques</h1>
-          <h2>A century of motoring greatness </h2>
-          <br />
           <MarqueList />
         </div>
       </div>

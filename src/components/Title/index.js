@@ -1,7 +1,7 @@
 import './styles.scss'
 
 const Title = ({title, subtitle}) => (
-  <div className="container">
+  <div className="container title-container">
     <div className="row">
       <div className="col">
         <h1>{title}</h1>
