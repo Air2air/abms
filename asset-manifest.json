@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/abms/static/css/main.a0f424c4.css",
+    "main.css": "/abms/static/css/main.5bbf919e.css",
     "main.js": "/abms/static/js/main.611624e6.js",
     "static/media/arms.png": "/abms/static/media/arms.db01198b001fe31a7112.png",
     "static/media/logo.png": "/abms/static/media/logo.7cd23cb67629dc3cf1a9.png",
     "static/media/moasf-logo.svg": "/abms/static/media/moasf-logo.e277741677c057ac0d024d6839723258.svg",
     "static/media/logo-blackhawk.svg": "/abms/static/media/logo-blackhawk.8ade6c44aa3baba799c81c97d4c8ffb3.svg",
     "index.html": "/abms/index.html",
-    "main.a0f424c4.css.map": "/abms/static/css/main.a0f424c4.css.map",
+    "main.5bbf919e.css.map": "/abms/static/css/main.5bbf919e.css.map",
     "main.611624e6.js.map": "/abms/static/js/main.611624e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f424c4.css",
+    "static/css/main.5bbf919e.css",
     "static/js/main.611624e6.js"
   ]
 }
