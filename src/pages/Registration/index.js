@@ -1,11 +1,10 @@
 import {Link} from 'react-router-dom'
 import Title from '../../components/Title'
-import {eventBrite} from '../../data/constants'
+import {eventBrite} from '../../utilities/constants'
 import './styles.scss'
 
 const Registration = () => (
   <>
-    {' '}
     <Title
       title="Exhibitor Registration"
       subtitle="a century of motoring greatness"
