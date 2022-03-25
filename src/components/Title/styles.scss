@@ -1,31 +1,11 @@
 @import '../../scss/_variables.scss';
 
-$alert-height: 40px;
+$title-height: 150px;
 
-.alert-wrapper {
-  height: $alert-height;
+.title-container {
+  height: $title-height;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  .message {
-    font-size: 0.94rem;
-    font-weight: normal;
-  }
+  justify-content: center;
 }
-
-/*----------- COLORS ---------------*/
-
-.alert-wrapper {
-  background: darken($base-color, 10%);
-  .message {
-    color: desaturate(lighten($base-color, 40%), 25%);
-  }
-}
-
-// .alert-wrapper {
-//   background: red;
-//   .message {
-//     background: gold;
-//   }
-// }
