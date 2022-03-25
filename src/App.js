@@ -1,4 +1,9 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Routes,
+  Route,
+} from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Slideshow from './components/Slideshow'
 import Cards from './components/Cards'
@@ -18,7 +23,8 @@ const App = () => (
     <Slideshow />
 
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route path="/*" element={<Navigate replace to="/home" />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/faq" element={<Faq />} />
       <Route path="/location" element={<Location />} />
       <Route path="/about" element={<About />} />

@@ -2,7 +2,7 @@ import Image from 'react-bootstrap/Image'
 import Title from '../../components/Title'
 import './styles.scss'
 
-const imageConcat = image => `/images/content/${image}`
+const imageConcat = image => `${process.env.PUBLIC_URL}/images/content/${image}`
 
 const About = () => (
   <>
