@@ -1,27 +1,63 @@
 @import '../../scss/variables';
 
-$footer-logos-height: 250px;
+$footer-logos-height-lg: 250px;
+$footer-logos-height-sm: 250px;
 
-$logo-size: 100px;
+$logo-size-lg: 100px;
+$logo-size-sm: 70px;
 
 .footer-logos-outer {
-  height: $footer-logos-height;
+  margin-top: 20px;
   width: 100%;
   .footer-logos-inner {
-    height: $footer-logos-height;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  a.logo-link {
-    height: $logo-size;
-    width: $logo-size;
-  }
+
   img.logo-footer {
-    height: $logo-size;
-    width: $logo-size;
     &.wide {
-      width: $logo-size * 1.5;
+      width: $logo-size-lg * 1.5;
+    }
+  }
+}
+
+$breakpoint: 860px;
+
+@media screen and (max-width: $breakpoint) {
+  .footer-logos-outer {
+    .footer-logos-inner {
+      height: $footer-logos-height-sm;
+    }
+    a.logo-link {
+      height: $logo-size-sm;
+      width: $logo-size-sm;
+    }
+    img.logo-footer {
+      height: $logo-size-sm;
+      width: $logo-size-sm;
+      &.wide {
+        width: $logo-size-sm * 1.5;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint) {
+  .footer-logos-outer {
+    .footer-logos-inner {
+      height: $footer-logos-height-lg;
+    }
+    a.logo-link {
+      height: $logo-size-lg;
+      width: $logo-size-lg;
+    }
+    img.logo-footer {
+      height: $logo-size-lg;
+      width: $logo-size-lg;
+      &.wide {
+        width: $logo-size-lg * 1.5;
+      }
     }
   }
 }
@@ -30,7 +66,6 @@ $logo-size: 100px;
 
 $footer-logos-color: desaturate(lighten($base-color, 20%), 25%);
 $text-footer: white;
-
 
 .footer-logos-outer {
   background: $footer-logos-color;
