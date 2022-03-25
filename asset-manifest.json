@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/abms/static/css/main.a0f424c4.css",
-    "main.js": "/abms/static/js/main.dc745a34.js",
+    "main.js": "/abms/static/js/main.2024d2a2.js",
     "static/media/arms.png": "/abms/static/media/arms.db01198b001fe31a7112.png",
     "static/media/logo.png": "/abms/static/media/logo.7cd23cb67629dc3cf1a9.png",
+    "static/media/card-schedule.jpg": "/abms/static/media/card-schedule.39c146b78a71b8ba04f0.jpg",
+    "static/media/card-contact.jpg": "/abms/static/media/card-contact.e7ce0692c3ec5859000a.jpg",
+    "static/media/card-registration.jpg": "/abms/static/media/card-registration.410d44f0601654d095aa.jpg",
     "static/media/moasf-logo.svg": "/abms/static/media/moasf-logo.e277741677c057ac0d024d6839723258.svg",
+    "static/media/card-history.jpg": "/abms/static/media/card-history.cebaa1736a85579eaee4.jpg",
+    "static/media/card-location.jpg": "/abms/static/media/card-location.f3ece6217becd35ac51f.jpg",
+    "static/media/card-marques.jpg": "/abms/static/media/card-marques.c43100c192546e83631b.jpg",
     "static/media/logo-blackhawk.svg": "/abms/static/media/logo-blackhawk.8ade6c44aa3baba799c81c97d4c8ffb3.svg",
     "index.html": "/abms/index.html",
     "main.a0f424c4.css.map": "/abms/static/css/main.a0f424c4.css.map",
-    "main.dc745a34.js.map": "/abms/static/js/main.dc745a34.js.map"
+    "main.2024d2a2.js.map": "/abms/static/js/main.2024d2a2.js.map"
   },
   "entrypoints": [
     "static/css/main.a0f424c4.css",
-    "static/js/main.dc745a34.js"
+    "static/js/main.2024d2a2.js"
   ]
 }
