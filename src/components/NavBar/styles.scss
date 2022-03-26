@@ -1,4 +1,5 @@
 @import '../../scss/variables';
+
 $navbar-height: 70px;
 .outer {
   height: auto;
@@ -24,12 +25,23 @@ $navbar-height: 70px;
   }
   &.lg {
     .inner {
-      // grid-template-columns: auto 0.3fr auto;
-      justify-content: space-between;
-      .nav-links {
-        a.nav-link {
-          font-size: 1.4em;
-          padding: 0 20px;
+
+      @media (min-width: 720px) {
+        justify-content: space-between;
+        .nav-links {
+          a.nav-link {
+            font-size: 1.2em;
+            padding: 0 20px;
+          }
+        }
+      }
+      @media (min-width:1050px) {
+        justify-content: space-around;
+        .nav-links {
+          a.nav-link {
+            font-size: 1.4em;
+            padding: 0 20px;
+          }
         }
       }
     }

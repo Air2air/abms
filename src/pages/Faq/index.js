@@ -14,11 +14,6 @@ const Faq = () => (
       <div className="row">
         <div className="col">
           <p>
-            <Image
-              className="embed-image right fade-in three"
-              src={imageConcat('pa-meet.jpg')}
-              alt="image"
-            />
             Like many things with a long history, the beginnings of the All
             British Motor Show are a little vague. We think it started in spring
             1991 as an All British Swap Meet in one of the parking lots at
@@ -36,11 +31,6 @@ const Faq = () => (
             few years ago.
           </p>
           <p>
-            <Image
-              className="embed-image left fade-in four"
-              src={imageConcat('hayward-6.jpg')}
-              alt="image"
-            />
             The Mini Owners decided to continue with both the Car Show and Swap
             Meet and somewhere along the line everything moved from the parking
             lot to the grass Practice Field which had the beautiful view
@@ -56,11 +46,6 @@ const Faq = () => (
             one of the Mini Club members was also involved with that group.
           </p>
           <p>
-            <Image
-              className="embed-image right fade-in five"
-              src={imageConcat('hayward-1.jpg')}
-              alt="image"
-            />
             The show moved to Blackhawk Museum in 2015 because the field at
             Hayward was being graded and graveled to use as a parking lot. The
             view would have still been great, but the ambiance of being on grass

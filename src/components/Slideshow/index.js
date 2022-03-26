@@ -16,13 +16,11 @@ const Slideshow = () => {
           <Slide timeInterval={6500} seed={45} />
         </div>
       ) : (
-        <>
-          <div className="slideshow-sm">
-            <Slide timeInterval={5030} seed={11} />
-            <Slide timeInterval={5450} seed={2} />
-            <Slide timeInterval={6300} seed={3} />
-          </div>
-        </>
+        <div className="slideshow-sm">
+          <Slide timeInterval={5030} seed={11} />
+          <Slide timeInterval={5450} seed={2} />
+          <Slide timeInterval={4300} seed={3} />
+        </div>
       )}
     </>
   )
