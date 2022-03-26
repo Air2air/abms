@@ -12,8 +12,9 @@ const NavBar = () => {
   return (
     <>
       <Alert />
-      <div className="outer">
-        {size.width >= breakpoint && (
+
+      {size.width >= breakpoint && (
+        <div className="outer lg">
           <div className="container inner">
             <div className="nav-links left">
               {navLinks.slice(0, 3).map(({id, link, name}) => (
@@ -22,7 +23,7 @@ const NavBar = () => {
                 </Link>
               ))}
             </div>
-            <Logo />
+
             <div className="nav-links right">
               {navLinks.slice(3, 6).map(({id, link, name}) => (
                 <Link key={id} className="nav-link" to={link}>
@@ -31,8 +32,11 @@ const NavBar = () => {
               ))}
             </div>
           </div>
-        )}
-        {size.width < breakpoint && (
+          <Logo />
+        </div>
+      )}
+      {size.width < breakpoint && (
+        <div className="outer sm">
           <div className="container inner">
             <div className="nav-links">
               {navLinks.map(({id, link, name}) => (
@@ -41,10 +45,10 @@ const NavBar = () => {
                 </Link>
               ))}
             </div>
-            <Logo sm />
           </div>
-        )}
-      </div>
+          <Logo />
+        </div>
+      )}
     </>
   )
 }

@@ -1,30 +1,30 @@
 @import '../../scss/variables';
-$logo-size: 120px;
-.logo-wrapper {
-  height: 70px;
-  width: $logo-size;
-  z-index: 2;
-  margin: -28px auto 0 auto;
-  display: flex;
-  justify-content: center;
-  pointer-events: none;
-  .logo-image {
-    height: $logo-size;
-  }
-}
+$logo-size-lg: 120px;
+$logo-size-sm: 120px;
 
-.logo-wrapper-sm {
-  height: $logo-size;
-  width: $logo-size;
+.logo-wrapper {
   position: absolute;
-  top: 110px;
   z-index: 1;
-  margin: 0 30px;
   display: flex;
   justify-content: center;
   pointer-events: none;
   // background: gold;
-  .logo-image {
-    height: $logo-size * 1.4;
+  &.sm {
+    height: $logo-size-sm;
+    width: 100%;
+    top: 110px;
+    margin: -28px auto 0 auto;
+    .logo-image {
+      height: $logo-size-sm;
+    }
+  }
+  &.lg {
+    height: $logo-size-lg;
+    width: 100%;
+    top: 10px;
+    margin: -28px auto 0 auto;
+    .logo-image {
+      height: $logo-size-lg;
+    }
   }
 }
