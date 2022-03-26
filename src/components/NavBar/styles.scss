@@ -5,6 +5,7 @@ $navbar-height: 70px;
   position: relative;
   padding-left: none;
   padding-right: none;
+  overflow: hidden;
   .inner {
     height: $navbar-height;
     display: grid;
@@ -30,8 +31,6 @@ $navbar-height: 70px;
     }
   }
 }
-
-$breakpoint: 860px;
 
 @media screen and (min-width: $breakpoint) {
   .inner {

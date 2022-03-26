@@ -3,7 +3,7 @@ $logo-size: 120px;
 .logo-wrapper {
   height: 70px;
   width: $logo-size;
-  z-index: 1;
+  z-index: 2;
   margin: -28px auto 0 auto;
   display: flex;
   justify-content: center;
@@ -16,8 +16,8 @@ $logo-size: 120px;
 .logo-wrapper-sm {
   height: $logo-size;
   width: $logo-size;
-  position:absolute;
-  top:110px;
+  position: absolute;
+  top: 110px;
   z-index: 1;
   margin: 0 30px;
   display: flex;
