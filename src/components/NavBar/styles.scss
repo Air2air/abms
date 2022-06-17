@@ -25,7 +25,6 @@ $navbar-height: 70px;
   }
   &.lg {
     .inner {
-
       @media (min-width: 720px) {
         justify-content: space-between;
         .nav-links {
@@ -35,7 +34,7 @@ $navbar-height: 70px;
           }
         }
       }
-      @media (min-width:1050px) {
+      @media (min-width: 1050px) {
         justify-content: space-around;
         .nav-links {
           a.nav-link {

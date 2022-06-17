@@ -1,5 +1,4 @@
 import Image from 'react-bootstrap/Image'
-import useWindowSize from '../../utilities/windowSize'
 import logoArms from '../../images/site/arms.png'
 import logoBlackhawk from '../../images/site/logo-blackhawk.svg'
 import logoMoasf from '../../images/site/moasf-logo.svg'

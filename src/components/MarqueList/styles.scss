@@ -11,7 +11,7 @@ $breakpoint-lg: 980px;
   @media screen and (max-width: $breakpoint-sm) {
     grid-template-columns: auto auto auto;
   }
-  @media screen and (max-width:$breakpoint-lg) {
+  @media screen and (max-width: $breakpoint-lg) {
     grid-template-columns: auto auto auto auto;
   }
   @media screen and (min-width: $breakpoint-lg) {

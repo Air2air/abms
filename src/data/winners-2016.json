@@ -1,251 +1,302 @@
-[{
+[
+  {
     "logo": "aston-martin.jpg",
     "make": "aston martin",
     "owner": "Russ & Bob Taft",
     "model": "DB 2/4 MkIII Drop Head Coupe"
-}, {
+  },
+  {
     "logo": "austin-healey.jpg",
     "make": "austin healey",
     "owner": "Robert Kent",
     "model": "'67 3000 mk II"
-}, {
+  },
+  {
     "logo": "austin-healey.jpg",
     "make": "austin healey - 2nd",
     "owner": "Jill Farrell",
     "model": "'60 3000 MK III"
-}, {
+  },
+  {
     "logo": "marcos.jpg",
     "make": "Marcos",
     "owner": "Luke Freeman",
     "model": "'70 GT 3 Litre V6"
-}, {
+  },
+  {
     "logo": "ford.jpg",
     "make": "Ford",
     "owner": "Brent Pullan",
     "model": "'70 Cortina"
-}, {
+  },
+  {
     "logo": "tvr.jpg",
     "make": "TVR",
     "owner": "Dana Sams",
     "model": "'73 2500M"
-}, {
+  },
+  {
     "logo": "ac.jpg",
     "make": "(AC) Shelby Cobra",
     "owner": "Dan and Joanne Nissim",
     "model": "'65 CSX2553 289"
-}, {
+  },
+  {
     "logo": "ginetta.jpg",
     "make": "Ginetta",
     "owner": "Julian Pitt",
     "model": "'72 G4"
-}, {
+  },
+  {
     "logo": "alvis.jpg",
     "make": "Alvis",
     "owner": "Robert La Mar",
     "model": "'52 TA21 Drophead"
-}, {
+  },
+  {
     "logo": "jaguar-e-type.jpg",
     "make": "Jaguar",
     "owner": "Randy Rosenberg",
     "model": "'67 E-Type Roadster"
-}, {
+  },
+  {
     "logo": "jaguar-e-type.jpg",
     "make": "Jaguar",
     "owner": "Bruce Marsh",
     "model": "'64 E-Type OTS"
-}, {
+  },
+  {
     "logo": "jaguar-xj.jpg",
     "make": "Jaguar",
     "owner": "Robert Krantz",
     "model": "'76 XJ6C"
-}, {
+  },
+  {
     "logo": "jaguar-xj.jpg",
     "make": "Jaguar",
     "owner": "Michael Pometta",
     "model": "'77 XJ6C"
-}, {
+  },
+  {
     "logo": "jaguar-f-type.jpg",
     "make": "jaguar",
     "owner": "Terrence Smith",
     "model": "'08 XKR"
-}, {
+  },
+  {
     "logo": "jaguar-xk.jpg",
     "make": "jaguar",
     "owner": "Geoffrey Horton",
     "model": "'55 XK140FHC/SE"
-}, {
+  },
+  {
     "logo": "jaguar-xk.jpg",
     "make": "jaguar",
     "owner": "Phil Endliss",
     "model": "'66 Mark 10"
-}, {
+  },
+  {
     "logo": "jensen.jpg",
     "make": "Jensen",
     "owner": "Betty Icanberry",
     "model": "'71 Interceptor"
-}, {
+  },
+  {
     "logo": "jensen.jpg",
     "make": "Jensen",
     "owner": "Mark Icanberry",
     "model": "'75 Interceptor"
-}, {
+  },
+  {
     "logo": "land-rover-old.jpg",
     "make": "land rover",
     "owner": "Frank Altamura",
     "model": "'51 Series 1"
-}, {
+  },
+  {
     "logo": "land-rover-old.jpg",
     "make": "land rover",
     "owner": "Peter Farrell",
     "model": "'64 Series IIa"
-}, {
+  },
+  {
     "logo": "lotus.jpg",
     "make": "lotus",
     "owner": "Mel & Darlene Boss",
     "model": "'67 Elan (Blacky)"
-}, {
+  },
+  {
     "logo": "lotus.jpg",
     "make": "lotus - 2nd",
     "owner": "Tom Chavez",
     "model": "'64 23B"
-}, {
+  },
+  {
     "logo": "lotus.jpg",
     "make": "lotus - 3rd",
     "owner": "Renn Ortenburger",
     "model": "'00 Motorsport Elise"
-}, {
+  },
+  {
     "logo": "mg-specialty.jpg",
     "make": "MGA",
     "owner": "scott johnston",
     "model": "'59 MGA twin cam"
-}, {
+  },
+  {
     "logo": "mgt.jpg",
     "make": "MGT",
     "owner": "Thor Poulsen",
     "model": "'52 MGTD mk II"
-}, {
+  },
+  {
     "logo": "mgt.jpg",
     "make": "MGT",
     "owner": "Robert Luebbert",
     "model": "'53 TD"
-}, {
+  },
+  {
     "logo": "mgb.jpg",
     "make": "MGB",
     "owner": "Rod Williams",
     "model": "'67 MGB"
-}, {
+  },
+  {
     "logo": "mgb.jpg",
     "make": "MGB",
     "owner": "Michael Green",
     "model": "'66 B GT"
-}, {
+  },
+  {
     "logo": "mini-new.jpg",
     "make": "mini (New)",
     "owner": "douglas bennett",
     "model": "'03 cooper “s”"
-}, {
+  },
+  {
     "logo": "mini-mk1-2.jpg",
     "make": "mini Sedan mk I-II",
     "owner": "Todd Dunning",
     "model": "'62 Cooper"
-}, {
+  },
+  {
     "logo": "mini-mk1-2.jpg",
     "make": "mini Sedan mk I-II",
     "owner": "Jim Predmore",
     "model": "'66 Cooper 'S'"
-}, {
+  },
+  {
     "logo": "mini-mk1-2.jpg",
     "make": "mini Sedan mk I-II",
     "owner": "Jerry Del Castello",
     "model": "'66 Cooper 'S'"
-}, {
+  },
+  {
     "logo": "mini-mk1-2.jpg",
     "make": "mini Sedan mk I-II",
     "owner": "Neil Blank",
     "model": "'62 Cooper"
-}, {
+  },
+  {
     "logo": "mini-mk-3-7.jpg",
     "make": "mini mk III-VII",
     "owner": "Scott Spencer",
     "model": "'73 Cooper 'S'"
-}, {
+  },
+  {
     "logo": "mini-mk-3-7.jpg",
     "make": "mini mk III-VII",
     "owner": "Chelle & Lance Bushnell",
     "model": "'72 Mini"
-}, {
+  },
+  {
     "logo": "mini-mk-3-7.jpg",
     "make": "mini mk III-VII",
     "owner": "Margaret Barrow",
     "model": "'75 Mini 1000"
-}, {
+  },
+  {
     "logo": "morgan.jpg",
     "make": "Morgan",
     "owner": "Robert Schmidt",
     "model": "'50 4-4 Standard Special"
-}, {
+  },
+  {
     "logo": "morgan.jpg",
     "make": "Morgan",
     "owner": "Susan Loesche",
     "model": "'68 Plus 4 Roadster"
-}, {
+  },
+  {
     "logo": "morris.jpg",
     "make": "Morris",
     "owner": "Paul Lukes",
     "model": "'56 Minor Traveller"
-}, {
+  },
+  {
     "logo": "royal-enfield.jpg",
     "make": "Royal Enfield",
     "owner": "Albert Catelani",
     "model": "'65 Interceptor, Series I"
-}, {
+  },
+  {
     "logo": "triumph.jpg",
     "make": "Triumph",
     "owner": "Gregory Beck",
     "model": "'50 Thunderbird T6"
-}, {
+  },
+  {
     "logo": "norton.jpg",
     "make": "Norton",
     "owner": "Allan Anthony",
     "model": "'72 750 Commando"
-}, {
+  },
+  {
     "logo": "bentley.jpg",
     "make": "Bentley",
     "owner": "John Place",
     "model": "'34 Blower 4 1/2 l Tourer"
-}, {
+  },
+  {
     "logo": "sprite-midget.jpg",
     "make": "Austin Healey",
     "owner": "James Rose",
     "model": "'58 sprite"
-}, {
+  },
+  {
     "logo": "sprite-midget.jpg",
     "make": "Austin Healey",
     "owner": "Chris Barker",
     "model": "'59 sprite"
-}, {
+  },
+  {
     "logo": "triumph-spitfire-gt6.jpg",
     "make": "Triumph Spitfire/GT 6",
     "owner": "Andy Kelchner",
     "model": "'72 GT6 MK3"
-}, {
+  },
+  {
     "logo": "triumph-spitfire-gt6.jpg",
     "make": "Triumph Spitfire/GT 6",
     "owner": "Steven Kuhn",
     "model": "'69 GT6+"
-}, {
+  },
+  {
     "logo": "triumph-tr4.jpg",
     "make": "Triumph TR 4/250",
     "owner": "Daniel Ludwig",
     "model": "'68 TR250"
-}, {
+  },
+  {
     "logo": "triumph-tr6.jpg",
     "make": "Triumph TR 6",
     "owner": "Craig McAmis",
     "model": "'74 TR 6"
-}, {
+  },
+  {
     "logo": "triumph-tr6.jpg",
     "make": "Triumph TR 6",
     "owner": "Bruce Waller",
     "model": "'73 TR 6"
-}]
+  }
+]

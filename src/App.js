@@ -7,7 +7,7 @@ import {
 import NavBar from './components/NavBar'
 import Slideshow from './components/Slideshow'
 import Cards from './components/Cards'
-import Faq from './pages/Faq'
+import Schedule from './pages/Schedule'
 import Home from './pages/Home'
 import Location from './pages/Location'
 import About from './pages/About'
@@ -25,7 +25,7 @@ const App = () => (
     <Routes>
       <Route path="/*" element={<Navigate replace to="/home" />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/faq" element={<Faq />} />
+      <Route path="/schedule" element={<Schedule />} />
       <Route path="/location" element={<Location />} />
       <Route path="/about" element={<About />} />
       <Route path="/marques" element={<Marques />} />

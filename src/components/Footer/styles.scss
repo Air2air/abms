@@ -22,8 +22,6 @@ $logo-size-sm: 70px;
   }
 }
 
-
-
 @media screen and (max-width: $breakpoint) {
   .footer-logos-outer {
     .footer-logos-inner {
@@ -64,7 +62,8 @@ $logo-size-sm: 70px;
 
 /*---------- Colors-----------*/
 
-$footer-logos-color: desaturate(lighten($base-color, 20%), 25%);
+// $footer-logos-color: desaturate(lighten($base-color, 20%), 25%);
+$footer-logos-color: $base-color;
 $text-footer: white;
 
 .footer-logos-outer {
