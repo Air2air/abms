@@ -1,6 +1,6 @@
 @import '../../scss/variables';
 
-$card-height: 100px;
+$card-height: 160px;
 $text-card: white;
 $gutter: 14px;
 $card-breakpoint: 880px;
@@ -65,7 +65,7 @@ $card-breakpoint: 880px;
 .card-grid {
   .card-item {
     .card-inner {
-      background-color: $base-color;
+      background-color: transparentize($base-color, .5%);
       background-blend-mode: soft-light;
       .card-text {
         color: $text-card;

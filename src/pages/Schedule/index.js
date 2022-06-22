@@ -1,4 +1,5 @@
 import Title from '../../components/Title'
+import Transitions from './../../components/Transition'
 import './styles.scss'
 
 const scheduleData = [
@@ -26,7 +27,7 @@ const scheduleData = [
   {
     id: 3,
     time: '1-2 pm',
-    title: 'awards and prizes',
+    titl: 'awards and prizes',
     desc:
       'Gather at the Show Central booth for awards presentations and raffle winners.  We hope your fine car is center stage.',
   },
@@ -34,25 +35,27 @@ const scheduleData = [
 
 const Schedule = () => (
   <>
-    <Title title="Show Schedule" subtitle="and entrant information" />
-    <div className="container">
-      {scheduleData.map(({id, time, title, desc}) => (
-        <>
-          <div className="row" key={id}>
-            <div className="col-4 d-flex align-items-start justify-content-center">
-              <div>
-                <h1>{time}</h1>
-                <h2>{title}</h2>
+    <Transitions>
+      <Title title="Show Schedule" subtitle="and entrant information" />
+      <div className="container">
+        {scheduleData.map(({id, time, title, desc}) => (
+          <>
+            <div className="row" key={id}>
+              <div className="col-4 d-flex align-items-start justify-content-center">
+                <div>
+                  <h1>{time}</h1>
+                  <h2>{title}</h2>
+                </div>
               </div>
+              <div className="col-8">
+                <p>{desc}</p>
+              </div>
+              <hr />
             </div>
-            <div className="col-8">
-              <p>{desc}</p>
-            </div>
-            <hr />
-          </div>
-        </>
-      ))}
-    </div>
+          </>
+        ))}
+      </div>
+    </Transitions>
   </>
 )
 

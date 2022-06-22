@@ -1,20 +1,23 @@
 import Title from '../../components/Title'
 import MarqueList from '../../components/MarqueList'
+import Transitions from './../../components/Transition'
 import './styles.scss'
 
 const Marques = () => (
   <>
-    <Title
-      title="Featured marques"
-      subtitle="see a century of motoring greatness"
-    />
-    <div className="container">
-      <div className="row">
-        <div className="col">
-          <MarqueList />
+    <Transitions>
+      <Title
+        title="Featured marques"
+        subtitle="see a century of motoring greatness"
+      />
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <MarqueList />
+          </div>
         </div>
       </div>
-    </div>
+    </Transitions>
   </>
 )
 

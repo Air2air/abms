@@ -1,29 +1,32 @@
 import {Link} from 'react-router-dom'
 import Title from '../../components/Title'
-import {eventBrite} from '../../utilities/constants'
+import Transitions from './../../components/Transition'
+// import {eventBrite} from '../../utilities/constants'
 import './styles.scss'
 
 const Registration = () => (
   <>
-    <Title
-      title="Exhibitor Registration"
-      subtitle="a century of motoring greatness"
-    />
-    <div className="container">
-      <div className="row">
-        <div className="col">
-          <p>
-            The show is free to the public. To enter your vehicle, please
-            register below.
-          </p>
-          <p>
-            Contact us at
-            <Link to="mailto:info@allbritishmotorshow.com">
-              info@allbritishmotorshow.com
-            </Link>
-            with questions.
-          </p>
-          <Link className="btn btn-default" to={eventBrite} target="_new">
+    {' '}
+    <Transitions>
+      <Title title="Exhibitor Registration" subtitle="enter your vehicle" />
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <p align="center">
+              The show is free to the public. To enter your vehicle, please
+              register below.
+            </p>
+            <p align="center">
+              <i>
+                We&apos;re still coordinating the 2022 registration page.
+                Contact us at &nbsp;
+                <Link to="mailto:info@allbritishmotorshow.com">
+                  info@allbritishmotorshow.com
+                </Link>
+                &nbsp; with questions.
+              </i>
+            </p>
+            {/* <Link className="btn btn-default" to={eventBrite} target="_new">
             Register at Eventbrite
           </Link>
 
@@ -58,11 +61,12 @@ const Registration = () => (
               to="http://www.eventbrite.com/r/eweb"
             >
               Powered by Eventbrite
-            </Link>
+            </Link> 
+          </div>*/}
           </div>
         </div>
-      </div>
-    </div>
+      </div>{' '}
+    </Transitions>
   </>
 )
 
