@@ -1,3 +1,4 @@
+import React from 'react'
 import {Link} from 'react-router-dom'
 import cards from '../../data/nav.json'
 import './styles.scss'

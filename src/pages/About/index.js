@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Title from '../../components/Title'
 import Transitions from './../../components/Transition'

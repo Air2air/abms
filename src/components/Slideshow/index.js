@@ -1,25 +1,42 @@
+import React from 'react'
 import useWindowSize from '../../utilities/windowSize'
 import {breakpoint} from '../../utilities/constants'
 import Slide from './Slide'
 
-const Slideshow = () => {
+const SlideTitle = () => {
+  const size = useWindowSize()
+  return (
+    <>
+      {size.width >= breakpoint ? (
+        <div className="slidetitle-lg">The All British Motor Show</div>
+      ) : (
+        <div className="slidetitle-sm">The All British Motor Show</div>
+      )}
+    </>
+  )
+}
+
+const Slideshow = ({showTitle}) => {
   const size = useWindowSize()
 
   return (
     <>
       {size.width >= breakpoint ? (
         <div className="slideshow-lg">
-          <Slide timeInterval={7030} seed={11} />
-          <Slide timeInterval={7450} seed={2} />
-          <Slide timeInterval={6300} seed={3} />
-          <Slide timeInterval={7750} seed={41} />
-          <Slide timeInterval={6500} seed={45} />
-        </div>
-      ) : (
-        <div className="slideshow-sm">
           <Slide timeInterval={5030} seed={11} />
           <Slide timeInterval={5450} seed={2} />
           <Slide timeInterval={4300} seed={3} />
+          <Slide timeInterval={5750} seed={41} />
+          <Slide timeInterval={4500} seed={45} />
+          {showTitle == true ? <SlideTitle /> : null}
+          {window.location.pathname}
+        </div>
+      ) : (
+        <div className="slideshow-sm">
+          <Slide timeInterval={3030} seed={11} />
+          <Slide timeInterval={3450} seed={2} />
+          <Slide timeInterval={2300} seed={3} />
+          {showTitle == true ? <SlideTitle /> : null}
         </div>
       )}
     </>

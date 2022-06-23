@@ -2,6 +2,8 @@
 
 $slideshow-height-lg: 250px;
 $slideshow-height-sm: 160px;
+$slidetitle-height-lg: 60%;
+$slidetitle-height-sm: 60%;
 
 .slideshow-lg,
 .slideshow-sm {
@@ -45,4 +47,16 @@ $slideshow-height-sm: 160px;
 .slideshow-lg,
 .slideshow-sm {
   background: darken($base-color, 20%);
+}
+
+.slidetitle-lg,
+.slidetitle-sm {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+}
+
+.slidetitle-lg,
+.slidetitle-sm {
+  color: white;
 }

@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'react-bootstrap/Image'
 import logoArms from '../../images/site/arms.png'
 import logoBlackhawk from '../../images/site/logo-blackhawk.svg'

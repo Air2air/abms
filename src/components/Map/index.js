@@ -1,3 +1,4 @@
+import React from 'react'
 import GoogleMapReact from 'google-map-react'
 import logo from '../../images/site/logo.png'
 

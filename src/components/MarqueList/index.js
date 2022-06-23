@@ -1,3 +1,4 @@
+import React from 'react'
 import marques from '../../data/marques.json'
 import './styles.scss'
 
@@ -7,14 +8,18 @@ const imageConcat = image =>
 const MarqueList = () => (
   <>
     <div className="container">
-      <div className="marque-grid">
-        {marques.map(({image, name}) => (
-          <div
-            className="marque-item"
-            key={name}
-            style={{backgroundImage: `url(${imageConcat(image)})`}}
-          />
-        ))}
+      <div className="row">
+        <div className="col marque-grid">
+          {marques.map(({image, name}) => (
+            <div className="marque-item" key={name}>
+              <div
+                className="marque-image"
+                style={{backgroundImage: `url(${imageConcat(image)})`}}
+              />
+              <p className="marque-label">{name}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   </>

@@ -64,6 +64,7 @@ $navbar-color: $base-color;
 $navbar-hover-color: lighten($navbar-color, 5%);
 $text-navbar: white;
 .outer {
+  background: $navbar-color;
   .inner {
     background: $navbar-color;
     color: $text-navbar;

@@ -1,6 +1,8 @@
 @import '../../scss/variables';
-$grid-item-size: 100px;
-$gutter: 20px;
+$grid-item-size: 120px;
+$grid-image-size: 90px;
+$grid-label-size: 30px;
+$gutter: 22;
 $breakpoint-sm: 600px;
 $breakpoint-lg: 980px;
 .marque-grid {
@@ -19,46 +21,26 @@ $breakpoint-lg: 980px;
   }
   .marque-item {
     display: flex;
+    flex-direction: column;
     height: $grid-item-size;
     width: $grid-item-size;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    img {
-      // height: auto;
-      width: 100%;
+    .marque-image {
+      margin: 0 auto;
+      height: $grid-image-size;
+      width: $grid-image-size;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      // background-color: blue;
+    }
+    .marque-label {
+      height: $grid-label-size;
+      line-height: 1.3rem;
+      font-size: medium;
+      text-align: center;
+      // background-color: red;
     }
   }
 }
 
 /*---------- Colors-----------*/
-
-$grid-item-color: $base-color;
-$grid-item-hover-color: lighten($grid-item-color, 5%);
-$text-grid-item: white;
-.outer {
-  background: $grid-item-color;
-  .inner {
-    color: $text-grid-item;
-    a.nav-link {
-      //background: gold;
-      color: $text-grid-item;
-      text-shadow: 0 0 6px darken($grid-item-color, 30%);
-      &:hover {
-        background: $grid-item-hover-color;
-      }
-    }
-  }
-}
-
-/*---------- Colors-----------*/
-
-// .outer {
-//   background: red;
-//   .inner {
-//     background: gold;
-//     a.nav-link {
-//       background: blue;
-//     }
-//   }
-// }

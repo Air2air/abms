@@ -1,3 +1,4 @@
+import React from 'react'
 import {motion} from 'framer-motion'
 const animationConfiguration = {
   initial: {opacity: 0},
