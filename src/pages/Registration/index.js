@@ -7,26 +7,51 @@ import './styles.scss'
 
 const Registration = () => (
   <>
-    {' '}
     <Transitions>
       <Title title="Exhibitor Registration" subtitle="enter your vehicle" />
       <div className="container">
         <div className="row">
           <div className="col">
-            <p align="center">
+            <p>
               The show is free to the public. To enter your vehicle, please
               register below.
             </p>
+
             <p align="center">
-              <i>
-                We&apos;re still coordinating the 2022 registration page.
-                Contact us at &nbsp;
-                <Link to="mailto:info@allbritishmotorshow.com">
-                  info@allbritishmotorshow.com
-                </Link>
-                &nbsp; with questions.
-              </i>
+              <a
+                className="btn btn-register"
+                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-auto-museum-mini-owners-of-america-san-francisc-080111"
+                target="_new"
+              >
+                Register at Hagerty MotorsportReg
+              </a>
             </p>
+            <p>
+              ** Please note that only the following details, together with your
+              payment information, are required:
+            </p>
+            <p>
+              <ul>
+                <li>First Name</li>
+                <li>Last Name</li>
+                <li>Email Address</li>
+                <li>Physical Address</li>
+                <li>Vehicle Details </li>
+              </ul>
+            </p>
+            <p>
+              <b>Everything else is an option.</b>
+            </p>
+            <p>
+              If you prefer to register via regular mail or electronically with
+              PayPal please send us an email to:{' '}
+            </p>
+            <p>
+              <Link to="mailto:info@allbritishmotorshow.com">
+                info@allbritishmotorshow.com
+              </Link>
+            </p>
+            <p>and we will send you instructions.</p>
             {/* <Link className="btn btn-default" to={eventBrite} target="_new">
             Register at Eventbrite
           </Link>

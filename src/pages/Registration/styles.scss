@@ -60,3 +60,19 @@ $globe-color-right: lighten($base-color, 30%);
     }
   }
 }
+
+a.btn-register {
+  background-color: #24584c;
+  border-radius: 50px;
+  color: #fff;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
+  font-weight: 700;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 50px;
+}
+a.btn-register:hover {
+  background-color: #337c6b;
+  color: #fff;
+}
