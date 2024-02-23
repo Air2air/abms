@@ -7,10 +7,10 @@ const SlideTitle = () => {
   const size = useWindowSize()
   return (
     <>
-      {size.width >= breakpoint ? (
-        <div className="slidetitle-lg">The All British Motor Show</div>
+      {size.width !== undefined && size.width >= breakpoint ? (
+        <div className="slidetitle-lg"></div>
       ) : (
-        <div className="slidetitle-sm">The All British Motor Show</div>
+        <div className="slidetitle-sm"></div>
       )}
     </>
   )
@@ -21,7 +21,7 @@ const Slideshow = ({showTitle}) => {
 
   return (
     <>
-      {size.width >= breakpoint ? (
+      {size.width && size.width >= breakpoint ? (
         <div className="slideshow-lg">
           <Slide timeInterval={5030} seed={11} />
           <Slide timeInterval={5450} seed={2} />

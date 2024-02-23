@@ -9,12 +9,12 @@ const Logo = () => {
 
   return (
     <>
-      {size.width >= breakpoint && (
+      {size && size.width && size.width >= breakpoint && (
         <div className="logo-wrapper lg">
           <img className="logo-image" src={logo} alt="All British Motor Show" />
         </div>
       )}
-      {size.width < breakpoint && (
+      {size && size.width && size.width < breakpoint && (
         <div className="logo-wrapper sm">
           <img className="logo-image" src={logo} alt="All British Motor Show" />
         </div>

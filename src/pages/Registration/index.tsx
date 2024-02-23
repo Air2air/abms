@@ -1,7 +1,7 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import Title from '../../components/Title'
-import Transitions from './../../components/Transition'
+import Transitions from '../../components/Transition'
 // import {eventBrite} from '../../utilities/constants'
 import './styles.scss'
 
@@ -9,6 +9,18 @@ const Registration = () => (
   <>
     <Transitions>
       <Title title="Exhibitor Registration" subtitle="enter your vehicle" />
+
+      {/* <div className="container">
+        <div className="row">
+          <div className="col">
+            <p>
+              Registration will open in late July 2023. We look forward to
+              seeing you there!
+            </p>
+          </div>
+        </div>
+      </div> */}
+
       <div className="container">
         <div className="row">
           <div className="col">
@@ -16,17 +28,22 @@ const Registration = () => (
               The show is free to the public. To enter your vehicle, please
               register below.
             </p>
-
-            <p align="center">
+            <br />
+            <br />
+            <p className="text-center">
               <a
                 className="btn btn-register"
-                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-auto-museum-mini-owners-of-america-san-francisc-080111"
+                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-museum-mini-owners-of-america-san-francisc-463570"
                 target="_new"
               >
                 Register at Hagerty MotorsportReg
               </a>
             </p>
-            <p>
+          </div>
+        </div>
+      </div>
+
+      {/* <p>
               ** Please note that only the following details, together with your
               payment information, are required:
             </p>
@@ -51,12 +68,9 @@ const Registration = () => (
                 info@allbritishmotorshow.com
               </Link>
             </p>
-            <p>and we will send you instructions.</p>
-            {/* <Link className="btn btn-default" to={eventBrite} target="_new">
-            Register at Eventbrite
-          </Link>
+            <p>and we will send you instructions.</p>  */}
 
-          <br />
+      {/* <br />
           <iframe
             src={eventBrite}
             frameBorder="0"
@@ -88,10 +102,10 @@ const Registration = () => (
             >
               Powered by Eventbrite
             </Link> 
-          </div>*/}
+          </div>
           </div>
         </div>
-      </div>{' '}
+      </div> */}
     </Transitions>
   </>
 )

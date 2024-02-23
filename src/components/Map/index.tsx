@@ -2,7 +2,7 @@ import React from 'react'
 import GoogleMapReact from 'google-map-react'
 import logo from '../../images/site/logo.png'
 
-const Marker = () => (
+const Marker = ({lat, lng, text}) => (
   <img
     className="logo-image"
     style={markerStyle}
@@ -11,6 +11,11 @@ const Marker = () => (
   />
 )
 
+/**
+ * Renders a Google Map component with a marker at a specific location.
+ *
+ * @return {JSX.Element} The rendered Google Map component with a marker.
+ */
 const Map = () => (
   <>
     <div style={{height: '600px', width: '100%'}}>

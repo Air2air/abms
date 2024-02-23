@@ -1,0 +1,16 @@
+[
+  {
+    "link": "http://www.blackhawkmuseum.org/",
+    "src": "logoBlackhawk",
+    "alt": "The Blackhawk Museum",
+    "wide": true,
+    "opacity": 0.5
+  },
+  {
+    "link": "http://www.moasf.com",
+    "src": "logoMoasf",
+    "alt": "Mini Owners of America",
+    "wide": false,
+    "opacity": 0.5
+  }
+]

@@ -1,7 +1,7 @@
 import React from 'react'
 import Map from '../../components/Map'
 import Title from '../../components/Title'
-import Transitions from './../../components/Transition'
+import Transitions from '../../components/Transition'
 
 const Location = () => (
   <>
@@ -10,10 +10,9 @@ const Location = () => (
       <div className="container">
         <div className="row">
           <div className="col">
-            <Map
-              containerElement={<div style={{height: `400px`}} />}
-              mapElement={<div style={{height: `100%`}} />}
-            />
+            <div style={{height: `400px`, width: `100%`}}>
+              <Map />
+            </div>
           </div>
         </div>
       </div>

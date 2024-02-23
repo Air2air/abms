@@ -31,7 +31,7 @@ const App = () => {
 
       <Routes>
         <Route path="/*" element={<Navigate replace to="/home" />} />
-        <Route exaxt path="/home" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/location" element={<Location />} />
         <Route path="/about" element={<About />} />
