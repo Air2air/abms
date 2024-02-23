@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Title from '@/components/Title'
-import Transitions from './../../components/Transition'
+import Transitions from '@/components/Transition'
 import './styles.scss'
 
-const imageConcat = image => `${process.env.PUBLIC_URL}/images/content/${image}`
+const imageConcat = image => `/images/content/${image}`
 
 const About = () => (
   <>

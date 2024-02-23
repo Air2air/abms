@@ -5,7 +5,12 @@ const animationConfiguration = {
   animate: {opacity: 1},
   exit: {opacity: 0},
 }
-const Transitions = ({children}) => {
+
+type TransitionsProps = {
+  children: React.ReactNode
+}
+
+const Transitions = ({children}: TransitionsProps) => {
   return (
     <motion.div
       variants={animationConfiguration}

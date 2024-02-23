@@ -1,8 +1,15 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
-import logo from '../../images/site/logo.png'
 
-const Marker = ({lat, lng, text}) => (
+const logo = '/images/site/logo.png'
+
+interface MarkerProps {
+  lat: number
+  lng: number
+  text: string
+}
+
+const Marker = ({lat, lng, text}: MarkerProps) => (
   <img
     className="logo-image"
     style={markerStyle}

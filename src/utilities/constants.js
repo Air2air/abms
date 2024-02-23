@@ -1,7 +1,7 @@
 export const eventBrite =
   'https://www.eventbrite.com/e/2019-moasf-blackhawk-all-british-motor-show-tickets-163495711073'
 
-const showDate = '2023-10-16'
+const showDate = '2024-10-16'
 const currentUnixDate = new Date()
 const showUnixDate = new Date(showDate)
 

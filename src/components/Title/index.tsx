@@ -1,6 +1,6 @@
 import React from 'react'
-import flourishLeft from '../../images/site/flourish-left.svg'
-import flourishRight from '../../images/site/flourish-right.svg'
+import flourishLeft from '/images/site/flourish-left.svg'
+import flourishRight from '/images/site/flourish-right.svg'
 import './styles.scss'
 
 const $titleHeight = '50px'
@@ -8,7 +8,12 @@ const $titleHeightSm = '40px'
 const $subTitleHeight = '40px'
 const $flourishHeightPx = '30px'
 
-const Title = ({title, subtitle}) => (
+type TitleProps = {
+  title: string
+  subtitle?: string
+}
+
+const Title = ({title, subtitle}: TitleProps) => (
   <>
     <div className="d-none d-sm-block">
       <div className="container mx-auto mt-5" style={{height: $titleHeight}}>

@@ -1,14 +1,14 @@
 import React from 'react'
 import Title from '@/components/Title'
 import Image from 'react-bootstrap/Image'
-import imageAwards from '/images/site/awards.jpg'
-import imageBallots from '/images/site/ballots.jpg'
-import imageFriends from '/images/site/friends.jpg'
-import imageInterview from '/images/site/interview.jpg'
-import imageRegistration from '/images/site/registration.jpg'
-import imageShow from '/images/site/show.jpg'
-import Transitions from '@/components/Transition'
 import './styles.scss'
+
+const imageAwards = '/images/site/awards.jpg'
+const imageBallots = '/images/site/ballots.jpg'
+const imageFriends = '/images/site/friends.jpg'
+const imageInterview = '/images/site/interview.jpg'
+const imageRegistration = '/images/site/registration.jpg'
+const imageShow = '/images/site/show.jpg'
 
 const scheduleData = [
   {
@@ -64,30 +64,28 @@ const scheduleData = [
 const Schedule = () => {
   return (
     <>
-      <Transitions>
-        <Title title="Show Schedule" subtitle="and entrant information" />
-        <div className="container">
-          {scheduleData.map(({id, image, time, title, desc}) => (
-            <>
-              <hr />
-              <div className="row" key={id}>
-                <div className="col-sm-9 col-xs-12">
-                  <h1>{time}</h1>
-                  <h2>{title}</h2>
-                  <p>{desc}</p>
-                </div>
-                <div className="col-sm-3 d-none d-sm-block">
-                  <Image
-                    className="schedule-image pt-3"
-                    src={image}
-                    alt={title}
-                  />
-                </div>
+      <Title title="Show Schedule" subtitle="and entrant information" />
+      <div className="container">
+        {scheduleData.map(({id, image, time, title, desc}) => (
+          <div key={id}>
+            <hr />
+            <div className="row">
+              <div className="col-sm-9 col-xs-12">
+                <h1>{time}</h1>
+                <h2>{title}</h2>
+                <p>{desc}</p>
               </div>
-            </>
-          ))}
-        </div>
-      </Transitions>
+              <div className="col-sm-3 d-none d-sm-block">
+                <Image
+                  className="schedule-image pt-3"
+                  src={image}
+                  alt={title}
+                />
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </>
   )
 }

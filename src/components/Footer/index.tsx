@@ -1,38 +1,38 @@
 import React from 'react'
 
-import logoArms from '../../images/site/arms.png'
-import logoBlackhawk from '../../images/site/logo-blackhawk.svg'
-import logoMoasf from '../../images/site/moasf-logo.svg'
 import './styles.scss'
 
-{/* <img src={logoArms} className="logo-footer" style={logoStyle} /> */}
+{
+  /* <img src={logoArms} className="logo-footer" style={logoStyle} /> */
+}
+
+const logoArms = '/images/site/arms.png'
+const logoBlackhawk = '/images/site/logo-blackhawk.svg'
+const logoMoasf = '/images/site/moasf-logo.svg'
 
 const footerData = [
   {
-    "link": "/",
-    "src": "logoArms",
-    "alt": "All British Motor Show",
-    "wide": false,
-    "opacity": 0.5
+    link: '/',
+    src: logoArms,
+    alt: 'All British Motor Show',
+    wide: false,
+    opacity: 0.5,
   },
   {
-    "link": "http://www.blackhawkmuseum.org/",
-    "src": "logoBlackhawk",
-    "alt": "The Blackhawk Museum",
-    "wide": true,
-    "opacity": 0.5
+    link: 'http://www.blackhawkmuseum.org/',
+    src: logoBlackhawk,
+    alt: 'The Blackhawk Museum',
+    wide: true,
+    opacity: 0.5,
   },
   {
-    "link": "http://www.moasf.com",
-    "src": "logoMoasf",
-    "alt": "Mini Owners of America",
-    "wide": false,
-    "opacity": 0.5
-  }
+    link: 'http://www.moasf.com',
+    src: logoMoasf,
+    alt: 'Mini Owners of America',
+    wide: false,
+    opacity: 0.5,
+  },
 ]
-
-
-
 
 const Footer = () => {
   return (
@@ -55,9 +55,7 @@ const Footer = () => {
         ))}
       </div>
     </div>
-  );
+  )
 }
-
-
 
 export default Footer

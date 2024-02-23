@@ -2,8 +2,7 @@ import React from 'react'
 import marques from '../../data/marques.json'
 import './styles.scss'
 
-const imageConcat = image =>
-  `${process.env.PUBLIC_URL}/images/marque-logos/${image}`
+const imageConcat = image => `/images/marque-logos/${image}`
 
 const MarqueList = () => (
   <>

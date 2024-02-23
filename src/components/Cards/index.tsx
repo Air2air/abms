@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import cards from '../../data/nav.json'
+import cards from '@/data/nav.json'
 import './styles.scss'
 
-const imageConcat = image => `${process.env.PUBLIC_URL}/images/card/${image}`
+const imageConcat = image => `/images/card/${image}`
 
 const Cards = () => (
   <>
