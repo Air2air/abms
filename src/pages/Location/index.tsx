@@ -1,7 +1,7 @@
 import React from 'react'
-import Map from '../../components/Map'
-import Title from '../../components/Title'
-import Transitions from '../../components/Transition'
+import Map from '@/components/Map'
+import Title from '@/components/Title'
+import Transitions from '@/components/Transition'
 
 const Location = () => (
   <>

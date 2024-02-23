@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import Title from '../../components/Title'
+import Title from '@/components/Title'
 import {showDateLong} from '../../utilities/constants'
-import Transitions from '../../components/Transition'
+import Transitions from '@/components/Transition'
 import './styles.scss'
 
 const Home = () => (

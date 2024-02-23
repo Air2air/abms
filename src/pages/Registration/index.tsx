@@ -1,7 +1,7 @@
 import React from 'react'
 // import {Link} from 'react-router-dom'
-import Title from '../../components/Title'
-import Transitions from '../../components/Transition'
+import Title from '@/components/Title'
+import Transitions from '@/components/Transition'
 // import {eventBrite} from '../../utilities/constants'
 import './styles.scss'
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import Title from '../../components/Title'
-import MarqueList from '../../components/MarqueList'
-import Transitions from './../../components/Transition'
+import Title from '@/components/Title'
+import MarqueList from '@/components/MarqueList'
+import Transitions from '@/components/Transition'
 import './styles.scss'
 
 const Marques = () => (
