@@ -2,9 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Alert from '../Alert'
 import Logo from '../Logo'
-import navLinks from '../../data/nav.json'
-import useWindowSize from '../../utilities/windowSize'
-import {breakpoint} from '../../utilities/constants'
+import navLinks from '@/data/nav.json'
+import useWindowSize from '@/utilities/windowSize'
+import {breakpoint} from '@/utilities/constants'
 import './styles.scss'
 
 const NavBar = () => {

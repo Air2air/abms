@@ -1,6 +1,6 @@
 import React from 'react'
-import useWindowSize from '../../utilities/windowSize'
-import {breakpoint} from '../../utilities/constants'
+import useWindowSize from '@/utilities/windowSize'
+import {breakpoint} from '@/utilities/constants'
 import logo from '/images/site/logo.png'
 import './styles.scss'
 

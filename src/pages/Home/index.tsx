@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Title from '@/components/Title'
-import {showDateLong} from '../../utilities/constants'
+import {showDateLong} from '@/utilities/constants'
 import Transitions from '@/components/Transition'
 import './styles.scss'
 
@@ -49,7 +49,7 @@ const Home = () => (
             <hr /> */}
             <p>
               Mini Owners of America - San Francisco is excited to host the 33rd
-              annual All British Motor Show on Sunday, October 15, 2023. The
+              annual All British Motor Show on Sunday, October 20, 2024. The
               show is held in honor of the late{' '}
               <Link to="/new">Nick Becker</Link> who conceived and promoted the
               show for many decades.

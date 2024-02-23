@@ -23,7 +23,18 @@ type SlideshowProps = {
 
 const Slideshow = ({showTitle}: SlideshowProps) => (
   <>
-    <Carousel autoPlay infiniteLoop showThumbs={false} interval={2000}>
+    <Carousel
+      autoPlay
+      infiniteLoop
+      showThumbs={false}
+      showIndicators={false}
+      interval={2500}
+      transitionTime={1500}
+      centerMode={true}
+      centerSlidePercentage={70}
+      dynamicHeight={true}
+      stopOnHover={false}
+    >
       {photos.map((image, index) => (
         <div key={index}>
           <img src={`/images/photos/${image}`} alt="" />

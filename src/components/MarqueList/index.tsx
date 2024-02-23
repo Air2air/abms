@@ -1,5 +1,5 @@
 import React from 'react'
-import marques from '../../data/marques.json'
+import marques from '@/data/marques.json'
 import './styles.scss'
 
 const imageConcat = image => `/images/marque-logos/${image}`
