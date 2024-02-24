@@ -8,7 +8,7 @@ import './styles.scss'
 const Registration = () => (
   <>
     <Transitions>
-      <Title title="Exhibitor Registration" subtitle="enter your vehicle" />
+      <Title title="Registration" subtitle="enter your vehicle" />
 
       {/* <div className="container">
         <div className="row">
@@ -39,6 +39,8 @@ const Registration = () => (
                 Register at Hagerty MotorsportReg
               </a>
             </p>
+            <br />
+            <br />
           </div>
         </div>
       </div>

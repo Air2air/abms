@@ -49,10 +49,9 @@ const Home = () => (
             <hr /> */}
             <p>
               Mini Owners of America - San Francisco is excited to host the 33rd
-              annual All British Motor Show on Sunday, October 20, 2024. The
-              show is held in honor of the late{' '}
-              <Link to="/new">Nick Becker</Link> who conceived and promoted the
-              show for many decades.
+              annual All British Motor Show on {showDateLong}. The show is held
+              in honor of the late <Link to="/new">Nick Becker</Link> who
+              conceived and promoted the show for many decades.
             </p>
             <p>
               The show is free to the public, from 9:00am - 2:00pm&nbsp;

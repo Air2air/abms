@@ -1,6 +1,6 @@
 @import '@/scss/variables';
 $grid-item-size: 120px;
-$grid-image-size: 90px;
+$grid-image-size: 80px;
 $grid-label-size: 30px;
 $gutter: 22;
 $breakpoint-sm: 600px;
@@ -14,7 +14,7 @@ $breakpoint-lg: 980px;
     grid-template-columns: auto auto auto;
   }
   @media screen and (max-width: $breakpoint-lg) {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
   }
   @media screen and (min-width: $breakpoint-lg) {
     grid-template-columns: auto auto auto auto auto auto;

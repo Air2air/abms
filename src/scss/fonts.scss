@@ -4,6 +4,22 @@
 
 /*---------------- Text --------------- */
 
+@import 'variables';
+
+html {
+  font-family: $font-sans-serif;
+  color: $text-color;
+  font-weight: normal;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: $breakpoint) {
+  html {
+    font-size: 14px; // or whatever smaller size you want
+  }
+}
+
 h1,
 h2,
 h3,

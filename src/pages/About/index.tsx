@@ -9,11 +9,7 @@ const imageConcat = image => `/images/content/${image}`
 const About = () => (
   <>
     <Transitions>
-      <Title
-        title="About the Show"
-        subtitle="the all british motor show was founded by nick becker in the early
-            1990s."
-      />
+      <Title title="About the Show" subtitle="Over 30 years strong" />
       <div className="container">
         <div className="row">
           <div className="col">

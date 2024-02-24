@@ -1,49 +1,48 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {Carousel} from 'react-responsive-carousel'
-import useWindowSize from '@/utilities/windowSize'
-import {breakpoint} from '@/utilities/constants'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 
-const SlideTitle = () => {
-  const size = useWindowSize()
+const Slideshow = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth)
+    window.addEventListener('resize', handleResize)
+
+    // Cleanup event listener on unmount
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  const imageHeight = windowWidth > 800 ? '500px' : '300px'
+
   return (
-    <>
-      {size.width !== undefined && size.width >= breakpoint ? (
-        <div className="slidetitle-lg"></div>
-      ) : (
-        <div className="slidetitle-sm"></div>
-      )}
-    </>
+    <div>
+      <Carousel
+        autoPlay
+        infiniteLoop
+        showThumbs={false}
+        showIndicators={false}
+        interval={2500}
+        transitionTime={1500}
+        centerMode={true}
+        centerSlidePercentage={70}
+        dynamicHeight={false}
+        stopOnHover={false}
+      >
+        {photos.map((image, index) => (
+          <div key={index} style={{height: imageHeight}}>
+            <img
+              src={`/images/photos/${image}`}
+              alt=""
+              style={{height: '100%', objectFit: 'cover', maxWidth: '100%'}}
+            />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   )
 }
 
-type SlideshowProps = {
-  showTitle: boolean
-}
-
-const Slideshow = ({showTitle}: SlideshowProps) => (
-  <>
-    <Carousel
-      autoPlay
-      infiniteLoop
-      showThumbs={false}
-      showIndicators={false}
-      interval={2500}
-      transitionTime={1500}
-      centerMode={true}
-      centerSlidePercentage={70}
-      dynamicHeight={true}
-      stopOnHover={false}
-    >
-      {photos.map((image, index) => (
-        <div key={index}>
-          <img src={`/images/photos/${image}`} alt="" />
-        </div>
-      ))}
-    </Carousel>
-    {showTitle ? <SlideTitle /> : <div />}
-  </>
-)
 const photos = [
   'DSC_1.jpg',
   'DSC_10.jpg',

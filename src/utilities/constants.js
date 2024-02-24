@@ -5,12 +5,15 @@ const showDate = '2024-10-20'
 const currentUnixDate = new Date()
 const showUnixDate = new Date(showDate)
 
-export const showDateLong = new Date(showDate).toLocaleDateString('en-us', {
-  weekday: 'long',
-  year: 'numeric',
-  month: 'short',
-  day: 'numeric',
-})
+export const showDateLong = new Date(`${showDate}T12:00:00`).toLocaleDateString(
+  'en-US',
+  {
+    weekday: 'short',
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  },
+)
 
 const timeInMillisec = currentUnixDate.getTime() - showUnixDate.getTime()
 const daysBetweenDates = -Math.ceil(timeInMillisec / (1000 * 60 * 60 * 24))
