@@ -48,75 +48,35 @@ const Home = () => (
             </p>
             <hr /> */}
             <p>
-              Mini Owners of America - San Francisco is excited to host the 33rd
-              annual All British Motor Show on {showDateLong}. The show is held
-              in honor of the late <Link to="/new">Nick Becker</Link> who
-              conceived and promoted the show for many decades.
+              Mini Owners of America - San Francisco is excited to host the 34th
+              annual All British Motor Show on Sunday, October 20, 2024 from 9am
+              to 2pm. The show is held in honor of the late Nick Becker who
+              conceived of and promoted the show for many decades.
             </p>
             <p>
-              The show is free to the public, from 9:00am - 2:00pm&nbsp;
-              {showDateLong}, at the Blackhawk Museum parking lot in Danville.
+              The show will be held in the Blackhawk Museum parking lot in
+              Danville. This year we’re celebrating the Centenary of MG! 100
+              years ago Cecil Kimber placed the octagonal MG logo on a converted
+              Morris and the rest is history!
             </p>
             <p>
-              We are celebrating two <Link to="/marques">marques</Link> this
-              year. The Austin Healey Sprite and Triumph Motorcycle!
-            </p>
-
-            <hr />
-            <div className="row">
-              <div className="col-sm-9 col-xs-12">
-                <h1>Austin Healey Sprite</h1>
-                <h2>Featured Auto Marque</h2>
-                <p>
-                  The Austin Healey Sprite made its debut 65 years ago in 1958!
-                  The Bugeye Sprite (Frogeye in the UK) was envisioned as an
-                  entry level sports car designed by the Donald Healey Motor
-                  Company and manufactured by BMC. Spartan, even by 1958
-                  standards, this iconic British roadster was rapidly adopted by
-                  the public for road and race use.
-                </p>
-              </div>
-              <div className="col-sm-3 d-none d-sm-block">
-                <Image
-                  className="schedule-image pt-3"
-                  src="/images/photos/DSC_9231.jpg"
-                  alt="Austin Healey Sprite"
-                />
-              </div>
-            </div>
-
-            <hr />
-            <div className="row">
-              <div className="col-sm-9 col-xs-12">
-                <h1>Triumph</h1>
-                <h2>Featured Cycle Marque</h2>
-                <p>
-                  Triumph Engineering Co Ltd began producing Triumph bicycles in
-                  1889 and manufacturing in-house designed motorcycles by 1905.
-                  The Triumph Speed Twin was brought to life by Edward Turner in
-                  1937 and the rest, as they say, is history.
-                </p>
-              </div>
-              <div className="col-sm-3 d-none d-sm-block">
-                <Image
-                  className="schedule-image pt-3"
-                  src="/images/photos/DSC_9269.jpg"
-                  alt="Austin Healey Sprite"
-                />
-              </div>
-            </div>
-            <hr />
-            <p>
-              Since 2015 we&apos;ve partnered with the Blackhawk Museum for our
-              event. Proceeds from our show and raffle go to support the
-              museum&apos;s&nbsp;
+              Since 2015 we’ve partnered with the Blackhawk Museum to support
+              their Children’s Education and Transportation Fund. &nbsp;
               <Link to="https://www.blackhawkmuseum.org/visit/school-tours/">
-                Children&apos;s Education and Transportation Fund
+                Proceeds from our show and raffle are donated to the fund
               </Link>
-              . The museum uses these funds to enrich the educational experience
-              of many local school children.
+              &nbsp; which are used to enrich the educational experience of
+              local school children.
             </p>
-            <p>- Bruce Hurlburt, ABMS Committee Chair</p>
+            <p>
+              So come join us to celebrate all things British! The show is
+              always fun and we look forward to seeing you there.
+            </p>
+            <p>
+              - Bruce Hurlburt
+              <br />
+              ABMS Committee Chair
+            </p>
           </div>
         </div>
       </div>
