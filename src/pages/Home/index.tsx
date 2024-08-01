@@ -63,7 +63,7 @@ const Home = () => (
               their Children’s Education and Transportation Fund. &nbsp;
               <a href="https://blackhawkmuseum.org/school-tour-request-form/" target="_blank"> Proceeds from our show and raffle are donated to the fund </a>
               &nbsp; which are used to enrich the educational experience of
-              local school children.
+              local school children2.
             </p>
             <p>
               So come join us to celebrate all things British! The show is
