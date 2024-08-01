@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
-import Image from 'react-bootstrap/Image'
 import Title from '@/components/Title'
 import {showDateLong} from '@/utilities/constants'
 import Transitions from '@/components/Transition'
@@ -62,9 +61,7 @@ const Home = () => (
             <p>
               Since 2015 we’ve partnered with the Blackhawk Museum to support
               their Children’s Education and Transportation Fund. &nbsp;
-              <Link to="https://www.blackhawkmuseum.org/visit/school-tours/">
-                Proceeds from our show and raffle are donated to the fund
-              </Link>
+              <a href="https://blackhawkmuseum.org/school-tour-request-form/" target="_blank"> Proceeds from our show and raffle are donated to the fund </a>
               &nbsp; which are used to enrich the educational experience of
               local school children.
             </p>

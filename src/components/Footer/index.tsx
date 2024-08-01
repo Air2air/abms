@@ -2,9 +2,7 @@ import React from 'react'
 
 import './styles.scss'
 
-{
-  /* <img src={logoArms} className="logo-footer" style={logoStyle} /> */
-}
+
 
 const logoArms = '/images/site/arms.png'
 const logoBlackhawk = '/images/site/logo-blackhawk.svg'
@@ -34,9 +32,12 @@ const footerData = [
   },
 ]
 
-const Footer = () => {
+const FooterMap = () => {
   return (
     <div className="footer-logos-outer">
+      <div className="footer-email">
+        Contact us at: <a className="email-link" href="mailto:abmsmoasf@gmail.com">abmsmoasf@gmail.com</a>
+      </div>
       <div className="container footer-logos-inner">
         {footerData.map((logo, index) => (
           <a
@@ -58,4 +59,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterMap

@@ -66,8 +66,8 @@ const Registration = () => (
               PayPal please send us an email to:{' '}
             </p>
             <p>
-              <Link to="mailto:info@allbritishmotorshow.com">
-                info@allbritishmotorshow.com
+              <Link to="mailto:abmsmoasf@gmail.com">
+                abmsmoasf@gmail.com
               </Link>
             </p>
             <p>and we will send you instructions.</p>  */}
