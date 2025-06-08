@@ -99,7 +99,7 @@ const Registration = () => (
             <Link
               className="powered-by-eb"
               style={{color: '#dddddd', textDecoration: 'none'}}
-              target="_blank"
+              target="_blank" rel="noreferrer"
               to="http://www.eventbrite.com/r/eweb"
             >
               Powered by Eventbrite
