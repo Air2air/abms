@@ -1,7 +1,7 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
 
-const logo = '/images/site/logo.png'
+const logo = 'https://abms-image-host.netlify.app/site/logo.png'
 
 interface MarkerProps {
   lat: number

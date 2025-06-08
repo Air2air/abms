@@ -2,7 +2,7 @@ import React from 'react'
 import marques from '@/data/marques.json'
 import './styles.scss'
 
-const imageConcat = image => `/images/marque-logos/${image}`
+const imageConcat = image => `https://abms-image-host.netlify.app/images/marque-logos/${image}`
 
 const MarqueList = () => (
   <>

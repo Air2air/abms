@@ -4,9 +4,9 @@ import './styles.scss'
 
 
 
-const logoArms = '/images/site/arms.png'
-const logoBlackhawk = '/images/site/logo-blackhawk.svg'
-const logoMoasf = '/images/site/moasf-logo.svg'
+const logoArms = 'https://abms-image-host.netlify.app/site/arms.png'
+const logoBlackhawk = 'https://abms-image-host.netlify.app/site/logo-blackhawk.svg'
+const logoMoasf = 'https://abms-image-host.netlify.app/site/moasf-logo.svg'
 
 const footerData = [
   {

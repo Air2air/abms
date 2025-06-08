@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import cards from '@/data/nav.json'
 import './styles.scss'
 
-const imageConcat = image => `/images/card/${image}`
+const imageConcat = image => `https://abms-image-host.netlify.app/card/${image}`
 
 const Cards = () => (
   <>

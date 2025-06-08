@@ -2,8 +2,8 @@ import React from 'react'
 
 import './styles.scss'
 
-const flourishLeft = '/images/site/flourish-left.svg'
-const flourishRight = '/images/site/flourish-right.svg'
+const flourishLeft = 'https://abms-image-host.netlify.app/site/flourish-left.svg'
+const flourishRight = 'https://abms-image-host.netlify.app/site/flourish-right.svg'
 
 type TitleProps = {
   title: string

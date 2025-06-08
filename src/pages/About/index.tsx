@@ -4,7 +4,7 @@ import Title from '@/components/Title'
 import Transitions from '@/components/Transition'
 import './styles.scss'
 
-const imageConcat = image => `/images/content/${image}`
+const imageConcat = image => `https://abms-image-host.netlify.app/content/${image}`
 
 const About = () => (
   <>

@@ -32,7 +32,7 @@ const Slideshow = () => {
         {photos.map((image, index) => (
           <div key={index} style={{height: imageHeight}}>
             <img
-              src={`https://abms-image-host.netlify.app/${image}`}
+              src={`https://abms-image-host.netlify.app/photos/${image}`}
               alt=""
               style={{height: '100%', objectFit: 'cover', maxWidth: '100%'}}
             />
