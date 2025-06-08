@@ -33,7 +33,7 @@ const Registration = () => (
             <p className="text-center">
               <a
                 className="btn btn-register"
-                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-museum-mini-owners-of-america-san-francisc-673442"
+                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-museum-mini-owners-of-america-san-francisc-463570"
                 target="_new"
               >
                 Register at Hagerty MotorsportReg
