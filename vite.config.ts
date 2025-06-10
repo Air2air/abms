@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import svgrPlugin from 'vite-plugin-svgr';
+import { visualizer } from 'rollup-plugin-visualizer';
 import * as path from 'path';
 
 export default defineConfig({
@@ -8,8 +10,19 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  plugins: [react()],
-  base: '/abms/',
+  plugins: [
+    react(),
+    svgrPlugin({
+      svgrOptions: {
+        svgo: true,
+        svgoConfig: {
+          plugins: [{ name: 'preset-default' }, { name: 'removeViewBox', active: false }],
+        },
+      },
+    }),
+    visualizer({ open: true, filename: 'dist/stats.html' }),
+  ],
+  base: '/', // For allbritishmotorshow.com root
   server: { port: 3000 },
   preview: { port: 8080 },
   build: {
@@ -21,6 +34,7 @@ export default defineConfig({
           carousel: ['react-responsive-carousel'],
           maps: ['google-map-react'],
           bootstrap: ['react-bootstrap', 'bootstrap'],
+          utilities: ['@/utilities/windowSize', '@/utilities/constants'],
         },
       },
     },

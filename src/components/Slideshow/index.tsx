@@ -1,22 +1,27 @@
-import React, {useEffect, useState} from 'react'
-import {Carousel} from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
+import React, { useEffect, useState } from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
-const Slideshow = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+interface SlideshowProps {
+  showTitle: boolean;
+}
+
+const Slideshow: React.FC<SlideshowProps> = ({ showTitle }) => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
-    window.addEventListener('resize', handleResize)
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
-    // Cleanup event listener on unmount
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-
-  const imageHeight = windowWidth > 800 ? '500px' : '300px'
+  const imageHeight = windowWidth > 800 ? '500px' : '300px';
 
   return (
     <div>
+      {showTitle && <h1>Slideshow Title</h1>}
       <Carousel
         autoPlay
         infiniteLoop
@@ -30,18 +35,24 @@ const Slideshow = () => {
         stopOnHover={false}
       >
         {photos.map((image, index) => (
-          <div key={index} style={{height: imageHeight}}>
-            <img
+          <div key={index} style={{ height: imageHeight }}>
+            <LazyLoadImage
               src={`https://abms-image-host.netlify.app/photos/${image}`}
               alt=""
-              style={{height: '100%', objectFit: 'cover', maxWidth: '100%'}}
+              effect="blur"
+              style={{ height: '100%', objectFit: 'cover', maxWidth: '100%' }}
             />
           </div>
         ))}
       </Carousel>
     </div>
-  )
-}
+  );
+};
+
+
+
+
+
 
 const photos = [
 'DSC_18.jpg',
