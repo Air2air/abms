@@ -1,8 +1,6 @@
-import {defineConfig} from 'vite'
-import react from '@vitejs/plugin-react'
-import tsConfigPaths from 'vite-tsconfig-paths'
-import svgrPlugin from 'vite-plugin-svgr'
-import * as path from 'path'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import * as path from 'path';
 
 export default defineConfig({
   resolve: {
@@ -10,12 +8,22 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  plugins: [react(), tsConfigPaths(), svgrPlugin()],
-  base: '/',
-  server: {
-    port: 3000,
+  plugins: [react()],
+  base: '/abms/',
+  server: { port: 3000 },
+  preview: { port: 8080 },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+          motion: ['framer-motion', '@steveeeie/react-page-transition'],
+          carousel: ['react-responsive-carousel'],
+          maps: ['google-map-react'],
+          bootstrap: ['react-bootstrap', 'bootstrap'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 500,
   },
-  preview: {
-    port: 8080,
-  },
-})
+});
