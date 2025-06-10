@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Alert from '@/components/Alert'
 import Logo from '@/components/Logo'
 import navLinks from '@/data/nav.json'
 import useWindowSize from '@/utilities/windowSize'
@@ -25,8 +24,6 @@ const NavBar = () => {
 
   return (
     <>
-      <Alert />
-
       {isLargeScreen && (
         <div className="outer lg">
           <div className="container inner">
