@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Logo from '@/components/Logo'
-import navLinks from '@/data/nav.json'
-import useWindowSize from '@/utilities/windowSize'
-import {breakpoint} from '@/utilities/constants'
+import Alert from '../Alert'
+import Logo from '../Logo'
+import navLinks from '../../data/nav.json'
+import useWindowSize from '../../utilities/windowSize'
+import {breakpoint} from '../../utilities/constants'
 import './styles.scss'
 
 const NavBar = () => {
@@ -24,6 +25,8 @@ const NavBar = () => {
 
   return (
     <>
+      <Alert />
+
       {isLargeScreen && (
         <div className="outer lg">
           <div className="container inner">

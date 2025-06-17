@@ -49,7 +49,7 @@ var sitemap_1 = require("sitemap");
 var fs_1 = require("fs");
 var path_1 = require("path");
 // Define your site’s base URL
-var hostname = 'https://allbritishmotorshow.com';
+var hostname = 'https://allbritishmotorshow.com/#/';
 // List static routes from App.tsx
 var staticRoutes = [
     { url: '/home', changefreq: 'weekly', priority: 1.0 },

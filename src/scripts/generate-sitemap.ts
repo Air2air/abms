@@ -3,7 +3,7 @@ import { createWriteStream } from 'fs';
 import { resolve } from 'path';
 
 // Define your site’s base URL
-const hostname = 'https://allbritishmotorshow.com';
+const hostname = 'https://allbritishmotorshow.com/#/';
 
 // List static routes from App.tsx
 const staticRoutes = [

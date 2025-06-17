@@ -19,6 +19,6 @@ const timeInMillisec = currentUnixDate.getTime() - showUnixDate.getTime()
 const daysBetweenDates = -Math.ceil(timeInMillisec / (1000 * 60 * 60 * 24))
 
 export const alertMessage = `${daysBetweenDates} days left until the show!`
-export const alertMessage2 = `Celebrating 31 years in the Bay Area`
+export const alertMessage2 = `Celebrating 32 years in the Bay Area`
 
 export const breakpoint = 768

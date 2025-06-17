@@ -1,0 +1,62 @@
+@import '../../scss/_variables.scss';
+
+$alert-height: 50px;
+
+.alert-wrapper {
+  height: $alert-height;
+  width: 100%;
+  .container {
+    display: flex;
+    height: $alert-height;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    .message {
+      height: $alert-height;
+      line-height:$alert-height;
+      font-size: 0.94rem;
+      font-weight: normal;
+      align-items: center;
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint) {
+  .alert-wrapper {
+    .container {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .alert-wrapper {
+    display:none;
+    .container {
+      justify-content: space-between;
+      .message {
+        text-align: center;
+        background: 'red';
+      }
+    }
+  }
+}
+
+/*----------- COLORS ---------------*/
+
+.alert-wrapper {
+  background: darken($base-color, 10%);
+  .message {
+    color: desaturate(lighten($base-color, 40%), 25%);
+    background: 'red';
+  }
+}
+
+// .alert-wrapper {
+//   background: red;
+//   .message {
+//     background: gold;
+//   }
+// }
