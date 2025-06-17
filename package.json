@@ -3,13 +3,14 @@
   "homepage": "https://allbritishmotorshow.com",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "engines": {
-    "node": "^10.13 || 12 || 14 || 15",
+    "node": ">=18",
     "npm": ">=6"
   },
   "scripts": {
     "dev": "vite --port 3000",
-    "build": "vite build && tsc src/scripts/generate-sitemap.ts && node src/scripts/generate-sitemap.js",
+    "build": "vite build && tsc -p tsconfig.sitemap.json && node src/scripts/generate-sitemap.js",
     "serve": "vite preview",
     "deploy": "gh-pages -d dist",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'"

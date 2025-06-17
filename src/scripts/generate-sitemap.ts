@@ -3,17 +3,17 @@ import { createWriteStream } from 'fs';
 import { resolve } from 'path';
 
 // Define your site’s base URL
-const hostname = 'https://allbritishmotorshow.com/#/';
+const hostname = 'https://allbritishmotorshow.com';
 
 // List static routes from App.tsx
 const staticRoutes = [
-  { url: '/home', changefreq: 'weekly', priority: 1.0 },
-  { url: '/schedule', changefreq: 'monthly', priority: 0.8 },
-  { url: '/location', changefreq: 'monthly', priority: 0.8 },
-  { url: '/about', changefreq: 'monthly', priority: 0.8 },
-  { url: '/marques', changefreq: 'weekly', priority: 0.9 },
-  { url: '/register', changefreq: 'monthly', priority: 0.8 },
-  { url: '/restoration', changefreq: 'monthly', priority: 0.8 },
+  { url: '/#/home', changefreq: 'weekly', priority: 1.0 },
+  { url: '/#/schedule', changefreq: 'monthly', priority: 0.8 },
+  { url: '/#/location', changefreq: 'monthly', priority: 0.8 },
+  { url: '/#/about', changefreq: 'monthly', priority: 0.8 },
+  { url: '/#/marques', changefreq: 'weekly', priority: 0.9 },
+  { url: '/#/register', changefreq: 'monthly', priority: 0.8 },
+  { url: '/#/restoration', changefreq: 'monthly', priority: 0.8 },
 ];
 
 // List marque routes from App.tsx (keys from marqueComponents)
@@ -28,7 +28,7 @@ const marques = [
 ];
 
 const marqueRoutes = marques.map((marque) => ({
-  url: `/marques/${marque}`,
+  url: `/#/marques/${marque}`,
   changefreq: 'weekly',
   priority: 0.7,
 }));
