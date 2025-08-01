@@ -23,8 +23,7 @@ const Home = () => (
             </p>
             <p>
               The show will be held in the Blackhawk Museum parking lot in
-              Danville. This year we’re celebrating the Austin/Morris Mini
-              Cooper and its kissing cousin the BMW Mini Cooper.
+              Danville. 
             </p>
             <p>
               Register your car or motorcycle online at motorsportreg.com

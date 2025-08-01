@@ -14,7 +14,7 @@ const Registration = () => (
         <div className="row">
           <div className="col">
             <p>
-              Registration will open in late July 2023. We look forward to
+              Registration will open in late July 2025. We look forward to
               seeing you there!
             </p>
           </div>
@@ -23,7 +23,7 @@ const Registration = () => (
 
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col d-flex flex-column align-items-center justify-content-center">
             <p>
               The show is free to the public. To enter your vehicle, please
               register below.
@@ -33,7 +33,7 @@ const Registration = () => (
             <p className="text-center">
               <a
                 className="btn btn-register"
-                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-museum-mini-owners-of-america-san-francisc-463570"
+                href="https://www.motorsportreg.com/events/all-british-motor-show-blackhawk-museum-mini-owners-of-america-sf-329023"
                 target="_new"
               >
                 Register at Hagerty MotorsportReg
@@ -42,8 +42,8 @@ const Registration = () => (
             <br />
             <br />
           </div>
-        </div>
-      </div>
+        </div>       </div>
+
 
       {/* <p>
               ** Please note that only the following details, together with your
