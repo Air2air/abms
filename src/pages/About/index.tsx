@@ -2,9 +2,10 @@ import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Title from '@/components/Title'
 import Transitions from '@/components/Transition'
+import {assetPath} from '@/utilities/assets'
 import './styles.scss'
 
-const imageConcat = image => `https://abms-image-host.netlify.app/content/${image}`
+const imageConcat = (image: string) => assetPath(`content/${image}`)
 
 const About = () => (
   <>

@@ -1,14 +1,15 @@
 import React from 'react'
 import Title from '@/components/Title'
 import Image from 'react-bootstrap/Image'
+import {assetPath} from '@/utilities/assets'
 import './styles.scss'
 
-const imageAwards = 'https://abms-image-host.netlify.app/site/awards.jpg'
-const imageBallots = 'https://abms-image-host.netlify.app/site/ballots.jpg'
-const imageFriends = 'https://abms-image-host.netlify.app/site/friends.jpg'
-const imageInterview = 'https://abms-image-host.netlify.app/site/interview.jpg'
-const imageRegistration = 'https://abms-image-host.netlify.app/site/registration.jpg'
-const imageShow = 'https://abms-image-host.netlify.app/site/show.jpg'
+const imageAwards = assetPath('site/awards.jpg')
+const imageBallots = assetPath('site/ballots.jpg')
+const imageFriends = assetPath('site/friends.jpg')
+const imageInterview = assetPath('site/interview.jpg')
+const imageRegistration = assetPath('site/registration.jpg')
+const imageShow = assetPath('site/show.jpg')
 
 const scheduleData = [
   {

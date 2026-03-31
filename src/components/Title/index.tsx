@@ -1,9 +1,10 @@
 import React from 'react'
+import {assetPath} from '@/utilities/assets'
 
 import './styles.scss'
 
-const flourishLeft = 'https://abms-image-host.netlify.app/site/flourish-left.svg'
-const flourishRight = 'https://abms-image-host.netlify.app/site/flourish-right.svg'
+const flourishLeft = assetPath('site/flourish-left.svg')
+const flourishRight = assetPath('site/flourish-right.svg')
 
 type TitleProps = {
   title: string

@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import cards from '@/data/nav.json'
+import {assetPath} from '@/utilities/assets'
 import './styles.scss'
 
-const imageConcat = image => `https://abms-image-host.netlify.app/card/${image}`
+const imageConcat = (image: string) => assetPath(`card/${image}`)
 
 const Cards = () => (
   <>

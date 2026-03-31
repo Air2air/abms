@@ -1,7 +1,8 @@
 import React from 'react'
 import useWindowSize from '@/utilities/windowSize'
 import {breakpoint} from '@/utilities/constants'
-const logo = 'https://abms-image-host.netlify.app/site/logo.png'
+import {assetPath} from '@/utilities/assets'
+const logo = assetPath('site/logo.png')
 import './styles.scss'
 
 const Logo = () => {

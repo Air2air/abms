@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import { assetPath } from '@/utilities/assets';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 interface SlideshowProps {
@@ -35,7 +36,7 @@ const Slideshow: React.FC<SlideshowProps> = ({ showTitle }) => {
         {photos.map((image, index) => (
           <div key={index} style={{ height: imageHeight }}>
             <img
-              src={`https://abms-image-host.netlify.app/photos/${image}`}
+              src={assetPath(`photos/${image}`)}
               alt=""
               style={{ height: '100%', objectFit: 'cover', maxWidth: '100%' }}
             />

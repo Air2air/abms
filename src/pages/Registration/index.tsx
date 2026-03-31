@@ -41,9 +41,18 @@ const Registration = () => (
             </p>
             <br />
             <br />
+            <p className="text-center">
+              <a
+                className="btn btn-register"
+                href="https://forms.gle/U5BQ8wr3CmFwnTHo7"
+                target="_new"
+              >
+                I'd like to volunteer!
+              </a>
+            </p>
           </div>
-        </div>       </div>
-
+        </div>
+      </div>
 
       {/* <p>
               ** Please note that only the following details, together with your

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import marques from '@/data/marques.json';
+import { assetPath } from '@/utilities/assets';
 import './styles.scss';
 
-const imageConcat = image => `https://abms-image-host.netlify.app/marque-logos/${image}`;
+const imageConcat = (image: string) => assetPath(`marque-logos/${image}`);
 
 const MarqueList = () => (
   <>

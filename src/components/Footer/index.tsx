@@ -1,12 +1,13 @@
 import React from 'react'
+import {assetPath} from '@/utilities/assets'
 
 import './styles.scss'
 
 
 
-const logoArms = 'https://abms-image-host.netlify.app/site/arms.png'
-const logoBlackhawk = 'https://abms-image-host.netlify.app/site/logo-blackhawk.svg'
-const logoMoasf = 'https://abms-image-host.netlify.app/site/moasf-logo.svg'
+const logoArms = assetPath('site/arms.png')
+const logoBlackhawk = assetPath('site/logo-blackhawk.svg')
+const logoMoasf = assetPath('site/moasf-logo.svg')
 
 const footerData = [
   {
